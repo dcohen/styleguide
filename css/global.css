@@ -270,20 +270,20 @@ body
 
 #container #contentColumns #col1 {
 	float: left;
-	width: 227px;
+	width: 217px;
 	background-image: url(../images/bgContentShadowLeft.gif);
 	background-repeat: repeat-y;
 	background-position: left;
-	height: 300px;
+	height: 100%;
 }
 
 #container #contentColumns #col2 {
 	background-image: url(../images/bgContentShadowRight.gif);
-	background-repeat: repeat-y;
-	background-position: right;
-	float: left;
-	width: 733px;
-	height: 300px;
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-right: 30px;
+	margin-left: 251px;
+	height: 100%;
 }
 
 #container #contentColumns div.bottomCap {
@@ -291,4 +291,132 @@ body
 	background-image: url(../images/bgContentShadowBottom.gif);
 	background-repeat: no-repeat;
 	height: 15px;
+}
+
+#container #contentColumns #col1 div.innerWorkspaceShadow {
+	background-image: url(../images/bgInnerLeftColumnShadow.gif);
+	background-repeat: no-repeat;
+	margin: 12px;
+	height: 400px;
+	width: 100%;
+}
+
+#container #footer {
+	margin-top: 10px;
+}
+
+
+/* MODULES */
+
+div.module h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #555;
+	font-family: Arial, serif;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dad1c1;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#col1 div.module {
+	margin: 0 20px 25px 25px;
+}
+
+#col2 div.module {
+	margin: 0px 0px 25px 0px;
+	padding-top: 12px;
+}
+
+div.module p {
+	font-size: 11px;
+	color: #555;
+	font-family: Arial, serif;
+	line-height: 14px;
+}
+
+div.module a.more {
+	color: #2a72a7;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: Georgia, serif;
+	font-style: italic;
+	display: block;
+	text-align: right;
+	margin-top: 1.0em;
+}
+
+div.module a:hover {
+	text-decoration: underline !important;
+}
+
+#SGM1 /*Generic with More*/ {
+	
+}
+
+#SGM2 /*Updates Listing*/ {
+	
+}
+
+#SGM2 ul li {
+	margin-bottom: 1.0em;
+	padding-left: 30px;
+}
+
+/* FILE TYPE ICONS */
+	#SGM2 ul li.pdf {
+		background-image: url(../images/iconPDF.gif);
+		background-repeat: no-repeat;
+		background-position: 2px left;
+	}
+	#SGM2 ul li.doc {
+		background-image: url(../images/iconDOC.gif);
+		background-repeat: no-repeat;
+		background-position: 2px left;
+	}
+/* END */
+
+#SGM2 ul li span {
+	color: #555;
+	font-size: 11px;
+	font-family: Georgia, serif;
+	font-style: italic;
+}
+
+#SGM2 ul li a {
+	color: #2a72a7;
+	text-decoration: none;
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+}
+
+#SGM3 /*Channel Listing*/ {
+
+}
+
+#SGM4 /*Footer Links*/ {
+	
+}
+
+#SGM4 ul {
+	margin: 0px 10px;
+}
+
+#SGM4 ul li {
+	float: left;
+}
+
+#SGM4 ul li a {
+	display: block;
+	margin-right: 2.0em;
+	text-decoration: none;
+	color: #898888;
+	font-family: Arial, serif;
+	font-size: 10px;
+	letter-spacing: 1px;
+}
+
+/* MISC */
+div.clear {
+	clear: both;
 }
