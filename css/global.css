@@ -21,14 +21,17 @@ body
 #container
 {
 	font-family: Arial, sans-serif;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #container #header {
-	
+	padding: 0 10px;
 }
 
 #container #header #topHat {
-	
+	margin-top: 16px;
 }
 
 #container #header #topHat #logo {
@@ -36,10 +39,12 @@ body
 }
 
 #container #header #topHat #options {
+	float: right;
 }
 
 #container #header #topHat #options #resourceLinks {
-
+	float: left;
+	margin-right: 12px;
 }
 
 #container #header #topHat #options #resourceLinks ul {
@@ -67,11 +72,223 @@ body
 	background-repeat: no-repeat;
 	border-left: 1px solid #9a7f53;
 	line-height: 11px;
-	padding-left: 18px;
+	padding-left: 16px;
+	font-size: 10px;
 }
 
 #container #header #topHat #options #resourceLinks ul li a.first {
 	border: none 0;
 	padding-left: 0;
-	margin-right: 14px;
+	margin-right: 12px;
+}
+
+#container #header #topHat #options #search {
+	float: left;
+}
+
+#container #header #topHat #options #search input {
+	border: 1px solid #9a7f53;
+	font-size: 11px;
+	color: #555;
+	height: 18px;
+	width: 141px;
+}
+
+#container #header #topHat #options #search button {
+	background-image: url(../images/buttonGo.gif);
+	height: 22px;
+	width: 22px;
+	border: 0 none;
+	text-indent: -9999em;
+}
+
+#container #header #nav {
+	clear: both;
+}
+
+#container #header #nav ul {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 6px;
+}
+
+#container #header #nav ul li {
+	float: left;
+}
+
+#container #header #nav ul li a {
+	font-family: Times, serif;
+	font-size: 1.2em;
+	color: #606060;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 40px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+#container #header #nav ul li a.dropDown {
+	padding-right: 16px;
+	background-image: url(../images/iconRaquo.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#container #header #nav ul li a:hover {
+	color: #00415f;
+}
+
+#container #header #nav ul li a.dropDown:hover {
+	background-image: url(../images/iconRaquoDown.gif);
+}
+
+#container #header #nav ul li a.first {
+	margin-left: 0;
+}
+
+#container #hero {
+	clear: both;
+	position: relative;
+	text-align: center;
+	height: 340px;
+
+}
+
+#container #hero img {
+	position: absolute;
+	left: 0;
+	top: 7px;
+	z-index: 1;
+}
+
+#container #hero #heroContent {
+	text-align: left;
+	position: absolute;
+	background-image: url(../images/bgHeroShadow.png);
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 340px;
+	background-position: top center;
+	z-index: 2;
+}
+
+#container #hero #heroContent div.left {
+	width: 460px;
+	height: 100%;
+	float: left;
+}
+
+#container #hero #heroContent div.left img {
+	margin-left: 53px;
+	margin-top: 115px;
+}
+
+#container #hero #heroContent div.right {
+	color: #fff;
+	width: 375px;
+	float: left;
+}
+
+#container #hero #heroContent div.right h2 {
+	font-size: 12px;
+	font-family: Times, serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 1.0em;
+	margin-top: 80px;
+	background-image: url(../images/bgHeroH2BottomBorder.gif);
+	background-position: bottom;
+	padding-bottom: 7px;
+	background-repeat: no-repeat;
+}
+
+#container #hero #heroContent div.right p {
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	line-height: 18px;
+}
+
+#container #hero #heroContent div.right div.carousel {
+	margin-top: 15px;
+}
+
+#container #hero #heroContent div.right div.carousel ul {
+	float: right;
+}
+
+#container #hero #heroContent div.right div.carousel ul li {
+	float: left;
+}
+
+#container #hero #heroContent div.right div.carousel ul li a {
+	width: 12px;
+	height: 12px;
+	display: block;
+	background-repeat: no-repeat;
+	background-color: #bbb;
+	margin-right: 6px;
+	text-indent: -9999em;
+	cursor: pointer;
+}
+
+#container #hero #heroContent div.right div.carousel ul li a.current {
+	background-color: #b2902c;	
+}
+
+#container #hero #heroContent div.right div.carousel ul li a:hover {
+	background-color: #bcaa8c;
+}
+
+#container #hero #heroContent div.right div.carousel ul li a.prev,
+#container #hero #heroContent div.right div.carousel ul li a.next {
+	background-color: transparent;
+	background-image: url(../images/carouselNavArrows.gif);
+	width: 6px;
+}
+
+#container #hero #heroContent div.right div.carousel ul li a.prev {
+	background-position: left;
+}
+
+#container #hero #heroContent div.right div.carousel ul li a.next {
+	background-position: right;
+}
+
+#container #hero #heroContent div.right div.carousel ul li a.prev:hover,
+#container #hero #heroContent div.right div.carousel ul li a.next:hover {
+	background-image: url(../images/carouselNavArrowsOn.gif);
+}
+
+#container #contentColumns {
+	clear: both;
+	padding-top: 15px;
+	background-image: url(../images/bgContentShadowTop.gif);
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	width: 960px;
+}
+
+#container #contentColumns #col1 {
+	float: left;
+	width: 227px;
+	background-image: url(../images/bgContentShadowLeft.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+	height: 300px;
+}
+
+#container #contentColumns #col2 {
+	background-image: url(../images/bgContentShadowRight.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+	float: left;
+	width: 733px;
+	height: 300px;
+}
+
+#container #contentColumns div.bottomCap {
+	clear: both;
+	background-image: url(../images/bgContentShadowBottom.gif);
+	background-repeat: no-repeat;
+	height: 15px;
 }
