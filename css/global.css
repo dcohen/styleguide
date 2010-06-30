@@ -456,8 +456,6 @@ div.module a:hover {
 	letter-spacing: 1px;
 }
 
-<<<<<<< HEAD
-
 /* Left Navigation */							
 #SGSN1 ul li{
 	margin-bottom: 1em;
@@ -502,14 +500,10 @@ div.module a:hover {
 	margin: 0;
 }
 
-
-
-=======
 #SGN2 /*Channel Listing Links*/ {
 	
 }
 
-<<<<<<< HEAD
 #SGN2 dl {
 	padding-bottom: 20px;
 	margin-bottom: 20px;
@@ -544,9 +538,6 @@ div.module a:hover {
 	background-repeat: no-repeat;
 }
 
-=======
->>>>>>> 9f8ebb82a8c9df5f36c537a8f16243cfcda8c787
->>>>>>> 7373947071f844ca678baeb1462f296bb15ca112
 /* MISC */
 div.clear {
 	clear: both;
