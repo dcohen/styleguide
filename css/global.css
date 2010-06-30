@@ -262,9 +262,9 @@ body
 #container #contentColumns {
 	clear: both;
 	background-image: url(../images/bgContentShadowLeftAndRight.gif);
-	background-position: right;
+	background-position: top left;
 	width: 100%;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	margin-top: 20px;
 	width: 960px;
 }
@@ -289,7 +289,7 @@ body
 
 #container #contentColumns #col3 {
 	float: left;
-	width: 210px;
+	width: 217px;
 }
 
 #container #contentColumns div.topCap {
@@ -308,11 +308,16 @@ body
 
 #container #contentColumns #col1 div.innerWorkspaceShadow,
 #container #contentColumns #col3 div.innerWorkspaceShadow {
-	background-image: url(../images/bgInnerLeftColumnShadow.gif);
+	background-image: url(../images/bgInnerRightColumnShadow.gif);
 	background-repeat: no-repeat;
 	margin: 12px;
 	min-height: 600px;
 	width: 100%;
+}
+
+#container #contentColumns #col3 div.innerWorkspaceShadow {
+	background-image: url(../images/bgInnerLeftColumnShadow.gif);
+	background-position: top left;
 }
 
 #container #footer {
@@ -323,7 +328,7 @@ body
 /* MODULES */
 
 div.module h2 {
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: bold;
 	color: #555;
 	font-family: Arial, serif;
@@ -331,6 +336,12 @@ div.module h2 {
 	border-bottom: 1px solid #dad1c1;
 	display: block;
 	margin-bottom: 20px;
+	line-height: 20px;
+}
+
+#col2 div.module h2 {
+	color: #00415f;
+	font-size: 20px;
 }
 
 #col1 div.module {
@@ -340,6 +351,10 @@ div.module h2 {
 #col2 div.module {
 	margin: 0px 0px 25px 0px;
 	padding-top: 12px;
+}
+
+#col3 div.module {
+	margin: 0 24px 25px 20px;
 }
 
 div.module p {
@@ -428,6 +443,10 @@ div.module a:hover {
 	font-family: Arial, serif;
 	font-size: 10px;
 	letter-spacing: 1px;
+}
+
+#SGN2 /*Channel Listing Links*/ {
+	
 }
 
 /* MISC */
