@@ -375,9 +375,12 @@ div.module p {
 	margin-bottom: 2.0em;
 }
 
-div.module a.more {
+div.module a {
 	color: #2a72a7;
 	text-decoration: none;
+}
+
+div.module a.more {
 	font-size: 12px;
 	font-family: Georgia, serif;
 	font-style: italic;
@@ -392,6 +395,19 @@ div.module a:hover {
 
 #SGM1 /*Generic with More*/ {
 	clear: both;
+}
+
+#SGM1 ul {
+	margin: 1.0em 0 1.0em 1.0em;
+}
+
+#SGM1 ul li {
+	list-style: inside url(../images/iconRaquoGeneric.gif);
+}
+
+#SGM1 ul li a {
+	font-size: 11px;
+	line-height: 14px;
 }
 
 #SGM2 /*Updates Listing*/ {
