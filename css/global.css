@@ -261,8 +261,9 @@ body
 
 #container #contentColumns {
 	clear: both;
-	padding-top: 15px;
-	background-image: url(../images/bgContentShadowTop.gif);
+	background-image: url(../images/bgContentShadowLeftAndRight.gif);
+	background-position: right;
+	width: 100%;
 	background-repeat: no-repeat;
 	margin-top: 20px;
 	width: 960px;
@@ -271,19 +272,31 @@ body
 #container #contentColumns #col1 {
 	float: left;
 	width: 217px;
-	background-image: url(../images/bgContentShadowLeft.gif);
-	background-repeat: repeat-y;
-	background-position: left;
-	height: 100%;
 }
 
 #container #contentColumns #col2 {
-	background-image: url(../images/bgContentShadowRight.gif);
-	background-repeat: no-repeat;
-	background-position: top right;
 	padding-right: 30px;
-	margin-left: 251px;
-	height: 100%;
+	margin-left: 240px;
+}
+
+#container #contentColumns #col2.middleRail {
+	float: left;
+	margin-left: 23px;
+	width: 480px;
+	padding-right: 0px;
+	background-image: none;
+}
+
+#container #contentColumns #col3 {
+	float: left;
+	width: 210px;
+}
+
+#container #contentColumns div.topCap {
+	clear: both;
+	background-image: url(../images/bgContentShadowTop.gif);
+	background-repeat: no-repeat;
+	height: 15px;
 }
 
 #container #contentColumns div.bottomCap {
@@ -293,11 +306,12 @@ body
 	height: 15px;
 }
 
-#container #contentColumns #col1 div.innerWorkspaceShadow {
+#container #contentColumns #col1 div.innerWorkspaceShadow,
+#container #contentColumns #col3 div.innerWorkspaceShadow {
 	background-image: url(../images/bgInnerLeftColumnShadow.gif);
 	background-repeat: no-repeat;
 	margin: 12px;
-	height: 400px;
+	min-height: 600px;
 	width: 100%;
 }
 
