@@ -364,6 +364,17 @@ div.module p {
 	line-height: 14px;
 }
 
+#col2 div.module p {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+#col2 div.module p img {
+	float: left;
+	margin-right: 2.0em;
+	margin-bottom: 2.0em;
+}
+
 div.module a.more {
 	color: #2a72a7;
 	text-decoration: none;
@@ -380,7 +391,7 @@ div.module a:hover {
 }
 
 #SGM1 /*Generic with More*/ {
-	
+	clear: both;
 }
 
 #SGM2 /*Updates Listing*/ {
@@ -447,6 +458,40 @@ div.module a:hover {
 
 #SGN2 /*Channel Listing Links*/ {
 	
+}
+
+#SGN2 dl {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	background-image: url(../images/bgSGSN2Bottom.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#SGN2 dl.last {
+	background-image: none;
+	padding-bottom: 0;
+}
+
+#SGN2 dl dt {
+	font-family: Times, serif;
+	color: #606060;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 18px;
+}
+
+#SGN2 dl dd a {
+	color: #2971a7;
+	font-family: Arial, serif;
+	font-size: 12px;
+	line-height: 18px;
+	text-decoration: none;
+	padding-left: 12px;
+	background-image: url(../images/iconRaquoSGN2.gif);
+	background-position: 4px left;
+	background-repeat: no-repeat;
 }
 
 /* MISC */
