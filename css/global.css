@@ -410,6 +410,11 @@ div.module a:hover {
 	line-height: 14px;
 }
 
+#SGM1 dl.dotted{
+	border-top: 1px dotted #DAD1C1;
+	padding-top: 8px;
+}
+
 #SGM2 /*Updates Listing*/ {
 	
 }
@@ -472,12 +477,13 @@ div.module a:hover {
 	letter-spacing: 1px;
 }
 
-/* Left Navigation */							
+/* Left Navigation - module SGSN1 */							
 #SGSN1 ul li{
 	margin-bottom: 1em;
 }
 
-#SGSN1 ul li a{
+/* first level links */
+#SGSN1 ul li a{								
 	text-decoration: none;
 	color: #696969;
 	text-transform: uppercase;
@@ -485,37 +491,57 @@ div.module a:hover {
 	margin-left: 15px;
 }
 
+/* turn link blue */
 #SGSN1 ul li a:hover, 
 #SGSN1 ul li a:active, 
-#SGSN1 a.current{
+#SGSN1 a.current{						
 	color: #00415f;
 }
 
 #SGSN1 ul li ul{ 
 	margin-top: 1em;
-	list-style-type: disc inside none;
 }
 
 #SGSN1 ul li ul li{
 	margin-bottom: 12px;
-	padding-left: 25px;
-	list-style: disc inside url("../images/SGSN1Arrow.gif");
 }
 
-#SGSN1 ul li ul li.current{
-	background: #FFF;
-	list-style: disc inside url("../images/SGSN1ArrowOn.gif");
-	border-top: 1px solid #f0ede6;
-	border-bottom: 1px solid #f0ede6;
-	padding: 4px 0 4px 25px;
-}
-
+/* second level links */
 #SGSN1 ul li ul li a{
+	background: transparent url("../images/SGSN1Arrow.gif") no-repeat;
+	background-position: 22px center;
 	font: normal 1.1em arial, sans-serif;
 	text-transform: capitalize;
+	padding-left: 32px;
 	margin: 0;
 }
+#SGSN1 ul li ul li a:hover{
+	background: transparent url("../images/SGSN1ArrowOn.gif") no-repeat;
+	background-position: 22px center;
+}
 
+#SGSN1 ul li ul li.current a{
+	background: none;
+}
+
+#SGSN1 ul li ul li a.current{
+	background: #FFF url("../images/SGSN1ArrowOn.gif") no-repeat;
+	background-position: 22px center;
+	border-top: 1px solid #F0EDE6;
+	border-bottom: 1px solid #F0EDE6;
+	padding: 3px 0 3px 32px;
+	display: block;
+}
+
+#SGSN1 ul li ul li.current li{
+	padding-left: 12px;	
+}
+
+/* third level links and below */
+#SGSN1 li.current li.current li.current a {
+	background: none;
+	border: none;
+}
 #SGN2 /*Channel Listing Links*/ {
 	
 }
