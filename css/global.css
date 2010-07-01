@@ -313,6 +313,22 @@ body
 	background-image: url(../images/carouselNavArrowsOn.gif);
 }
 
+/* SGH2 - Mini hero */
+#container #hero #heroSmallContent {
+	text-align: left;
+	position: absolute;
+	width: 953px;
+	height: 70px;
+	z-index: 2;
+}
+
+#container #hero #heroSmallContent img{
+	z-index: 1;
+	position: absolute;
+	left: 16px;
+	top: 24px;
+}
+
 #container #contentColumns {
 	clear: both;
 	background-image: url(../images/bgContentShadowLeftAndRight.gif);
@@ -466,7 +482,30 @@ div.module a:hover {
 
 #SGM1 dl.dotted{
 	border-top: 1px dotted #DAD1C1;
-	padding-top: 8px;
+	padding: 0.8em 0 0.5em 0;
+	margin-top: 0.6em;
+	float: left;
+}
+
+#SGM1 dl.dotted dt{
+	color: #555555;
+	font: 1.2em "times new roman", serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-bottom: 0.9em;
+}
+
+#SGM1 dl.dotted dd{
+	border-left: 1px solid #2A72A7;
+	float: left;
+	padding-left: 1em;
+	margin-right: 1em;
+	font-size: 1.1em;
+}
+
+#SGM1 dl.dotted dd.first{
+	border: none;
+	padding-left: 0;
 }
 
 #SGM2 /*Updates Listing*/ {
@@ -632,6 +671,84 @@ div.module a:hover {
 	background-image: url(../images/iconRaquoSGN2.gif);
 	background-position: 4px left;
 	background-repeat: no-repeat;
+}
+
+/* Module Gallery - Global Modules Table */
+.modulesTable{
+	width: 100%;
+	margin-top: 2.5em;
+}
+
+.modulesTable tr th{
+	background: #eae9e5;
+	color: #525252;
+	font: bold 1.5em arial, sans-serif;
+	vertical-align: middle;
+	padding: 5px 10px 4px;
+}
+
+.modulesTable tr td{
+	font: 1.1em arial,sans-serif;
+	padding: 10px;
+	color: #525252;
+	border-bottom: 1px solid #EAE9E5;
+}
+
+div.module .modulesTable a{
+	color: #1460ed;
+	text-decoration: none;
+}
+
+.modulesTable .row2 td{
+	padding-top: 20px;
+}
+
+.modulesTable .col1 a{
+	font: bold 1.1em arial, sans-serif;
+}
+
+.modulesTable .col2{
+	width: 53%;
+}
+
+.modulesTable .col3{
+	width: 24%;
+	color: #525252;
+}
+
+.modulesTable .col3 a{
+	font-size: 1.0em;
+}
+
+.modulesTable .border{
+	border-right: 5px solid #FFFFFF;
+}
+
+/* Table styles for "optimizing photos for web" section */
+.photosTable{
+	width: 70%;
+}
+
+.photosTable tr{}
+.photosTable th, .photosTable td{
+	color: #525252;
+	font: bold 1.2em arial, sans-serif;
+}
+.photosTable th{
+	border-bottom: 1px solid #525252;
+	padding: 0 0 3px;
+}
+.photosTable td{
+
+}
+.photosTable .col1{
+	border-right: 1px solid #525252;
+	padding: 2px 5px 2px 0;
+	width: 20%;
+}
+
+.photosTable .col2{
+	padding: 0 0 0 10px;
 }
 
 /* MISC */
