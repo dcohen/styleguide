@@ -104,6 +104,7 @@ body
 
 #container #header #nav {
 	clear: both;
+	position: relative;
 }
 
 #container #header #nav ul {
@@ -114,6 +115,7 @@ body
 
 #container #header #nav ul li {
 	float: left;
+	
 }
 
 #container #header #nav ul li a {
@@ -122,28 +124,80 @@ body
 	color: #606060;
 	text-transform: uppercase;
 	text-decoration: none;
-	margin-left: 40px;
+	margin-left: 5px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-top: 5px;
 	letter-spacing: 1px;
+	border: 1px solid transparent;
 	cursor: pointer;
 }
 
-#container #header #nav ul li a.dropDown {
-	padding-right: 16px;
-	background-image: url(../images/iconRaquo.gif);
-	background-position: right;
+#container #header #nav ul li.dropDown a {
+	padding-right: 26px;
+	background-image: url(../images/iconRaquo.png);
+	background-position: 8px right;
 	background-repeat: no-repeat;
 }
 
-#container #header #nav ul li a:hover {
+#container #header #nav ul li:hover a {
 	color: #00415f;
 }
 
-#container #header #nav ul li a.dropDown:hover {
-	background-image: url(../images/iconRaquoDown.gif);
+
+#container #header #nav ul li.dropDown:hover a  {
+	background-image: url(../images/iconRaquoDown.png);
+	background-color: #f6f3eb;
+	border: 1px solid #b3c1c9;
 }
 
 #container #header #nav ul li a.first {
 	margin-left: 0;
+}
+
+#container #header #nav ul li ul {
+	display: none;
+	
+	background-color: #f6f3eb;
+	line-height: 18px;
+	font-size: 11px;
+	font-family: Arial, sans-serif;	
+}
+
+#container #header #nav ul li:hover ul {
+	display: block;
+	position: absolute;
+	float: none;
+	top: 10px;	
+	z-index: 100;
+	
+	height: auto;
+	padding-top: 40px;
+	margin-left: 40px;
+	
+}
+
+#container #header #nav ul li:hover ul li span {
+	color: #606060;
+}
+
+#container #header #nav ul li:hover ul li {
+	float: none;
+}
+
+#container #header #nav ul li:hover ul li a {
+	margin-left: 0;
+	line-height: 18px;
+	font-size: 11px;
+	font-family: Arial, sans-serif;	
+	text-transform: capitalize;
+	color: #2971a7;
+	letter-spacing: normal;
+
+}
+
+#container #header #nav ul li.dropDown ul li a {
+	background-image: none !important;
 }
 
 #container #hero {
