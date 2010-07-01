@@ -619,6 +619,61 @@ div.module a:hover {
 	background-repeat: no-repeat;
 }
 
+/* Module Gallery - Global Modules Table */
+.modulesTable{
+	width: 100%;
+}
+
+.modulesTable tr{
+
+}
+
+.modulesTable tr th{
+	background: #eae9e5;
+	color: #525252;
+	font: bold 1.5em arial, sans-serif;
+	vertical-align: middle;
+	padding: 5px 10px 4px;
+}
+
+.modulesTable tr td{
+	font: 1.1em arial,sans-serif;
+	padding: 10px;
+	color: #525252;
+	border-bottom: 1px solid #EAE9E5;
+}
+
+.modulesTable a{
+	color: #1460ed;
+	text-decoration: none;
+}
+
+.modulesTable .row2 td{
+	padding-top: 20px;
+}
+
+.modulesTable .col1 a{
+	font: bold 1.1em arial, sans-serif;
+}
+
+.modulesTable .col2{
+	
+	width: 53%;
+}
+
+.modulesTable .col3{
+	width: 24%;
+	color: #525252;
+}
+
+.modulesTable .col3 a{
+	font-size: 1.0em;
+}
+
+.modulesTable .border{
+	border-right: 5px solid #FFFFFF;
+}
+
 /* MISC */
 div.clear {
 	clear: both;
