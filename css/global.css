@@ -259,6 +259,22 @@ body
 	background-image: url(../images/carouselNavArrowsOn.gif);
 }
 
+/* SGH2 - Mini hero */
+#container #hero #heroSmallContent {
+	text-align: left;
+	position: absolute;
+	width: 953px;
+	height: 70px;
+	z-index: 2;
+}
+
+#container #hero #heroSmallContent img{
+	z-index: 1;
+	position: absolute;
+	left: 16px;
+	top: 24px;
+}
+
 #container #contentColumns {
 	clear: both;
 	background-image: url(../images/bgContentShadowLeftAndRight.gif);
