@@ -622,6 +622,7 @@ div.module a:hover {
 /* Module Gallery - Global Modules Table */
 .modulesTable{
 	width: 100%;
+	margin-top: 2.5em;
 }
 
 .modulesTable tr{
