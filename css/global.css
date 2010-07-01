@@ -625,10 +625,6 @@ div.module a:hover {
 	margin-top: 2.5em;
 }
 
-.modulesTable tr{
-
-}
-
 .modulesTable tr th{
 	background: #eae9e5;
 	color: #525252;
@@ -644,7 +640,7 @@ div.module a:hover {
 	border-bottom: 1px solid #EAE9E5;
 }
 
-.modulesTable a{
+div.module .modulesTable a{
 	color: #1460ed;
 	text-decoration: none;
 }
@@ -658,7 +654,6 @@ div.module a:hover {
 }
 
 .modulesTable .col2{
-	
 	width: 53%;
 }
 
@@ -673,6 +668,33 @@ div.module a:hover {
 
 .modulesTable .border{
 	border-right: 5px solid #FFFFFF;
+}
+
+/* Table styles for "optimizing photos for web" section */
+.photosTable{
+	width: 70%;
+}
+
+.photosTable tr{}
+.photosTable th, .photosTable td{
+	color: #525252;
+	font: bold 1.2em arial, sans-serif;
+}
+.photosTable th{
+	border-bottom: 1px solid #525252;
+	padding: 0 0 3px;
+}
+.photosTable td{
+
+}
+.photosTable .col1{
+	border-right: 1px solid #525252;
+	padding: 2px 5px 2px 0;
+	width: 20%;
+}
+
+.photosTable .col2{
+	padding: 0 0 0 10px;
 }
 
 /* MISC */
