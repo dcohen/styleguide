@@ -107,15 +107,12 @@ body
 	position: relative;
 }
 
-#container #header #nav ul {
+#nav ul {
 	float: left;
-	margin-top: 40px;
-	margin-bottom: 6px;
 }
 
-#container #header #nav ul li {
+#nav ul li {
 	float: left;
-	
 }
 
 #container #header #nav ul li a {
@@ -125,30 +122,14 @@ body
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-left: 5px;
-	padding-left: 15px;
-	padding-right: 10px;
-	padding-top: 5px;
+	padding: 0 10px 0 15px;
 	letter-spacing: 1px;
 	border: 1px solid transparent;
 	cursor: pointer;
 }
 
-#container #header #nav ul li.dropDown a {
-	padding-right: 26px;
-	background-image: url(../images/iconRaquo.png);
-	background-position: 8px right;
-	background-repeat: no-repeat;
-}
-
 #container #header #nav ul li:hover a {
 	color: #00415f;
-}
-
-
-#container #header #nav ul li.dropDown:hover a  {
-	background-image: url(../images/iconRaquoDown.png);
-	background-color: #f6f3eb;
-	border: 1px solid #b3c1c9;
 }
 
 #container #header #nav ul li a.first {
@@ -156,36 +137,14 @@ body
 }
 
 #container #header #nav ul li ul {
-	display: none;
-	
-	background-color: #f6f3eb;
-	line-height: 18px;
-	font-size: 11px;
-	font-family: Arial, sans-serif;	
-}
-
-#container #header #nav ul li:hover ul {
-	display: block;
+	font: 11px Arial, sans-serif;
 	position: absolute;
 	float: none;
-	top: 10px;	
 	z-index: 100;
-	
-	height: auto;
-	padding-top: 40px;
-	margin-left: 40px;
-	
-}
-
-#container #header #nav ul li:hover ul li span {
 	color: #606060;
 }
 
-#container #header #nav ul li:hover ul li {
-	float: none;
-}
-
-#container #header #nav ul li:hover ul li a {
+#container #header #nav ul li ul li a {
 	margin-left: 0;
 	line-height: 18px;
 	font-size: 11px;
@@ -196,16 +155,122 @@ body
 
 }
 
+/* Dropdown Menu */
+#nav #dropDownUL{
+	/*margin: 40px 0 6px 0;*/
+	margin-top: 40px; /* jt - need to change this for dropdown menu */
+}
+
+#dropDownUL{
+	position: relative;
+	z-index: 99;
+}
+
+#dropDownUL li{
+	padding: 8px 0 5px;
+	border: 1px solid #FFF;
+}
+
+#container #header #dropDownUL .dropDownLI-level-1{
+	background: transparent url(../images/iconRaquo.gif) no-repeat;
+	padding-right: 10px;
+	background-position: 91% 9px;
+}
+
+#container #header #dropDownUL .dropDownLI-level-1:hover{
+	background: url(../images/dropDownBG.jpg);
+	padding-right: 10px;
+	z-index: 105;
+	position: relative;
+	border-bottom: 1px solid #F6F3EB;
+	border-left: 1px solid #b3c1c9;
+	border-top: 1px solid #b3c1c9;
+	border-right: 1px solid #b3c1c9;
+}
+
+#container #header #dropDownUL .dropDownLink-level-1{
+	padding: 0;
+}
+
+#container #header #dropDownUL .dropDownLI-level-1 .shadow{
+	margin: 0 10px;
+	width: 100%;
+}
+
+#container #header #dropDownUL .dropDownLI-level-1:hover .shadow{
+	background: #f6f3eb url(../images/iconRaquo2.gif) no-repeat;
+	background-position: 91% center;
+}
+
 #container #header #nav ul li.dropDown ul li a {
 	background-image: none !important;
 }
 
+#container #header #dropDownUL .dropDownLI-level-1:hover .dropDownUL-level-2{
+	display: block;
+}
+
+#dropDownUL ul.dropDownUL-level-2{
+	display: none;
+	background: #F6F3EB url("../images/dropDownBG.jpg") repeat-y;
+	background-position: left top;
+	padding: 20px 0 20px 10px;
+	border: 1px solid #B3C1C9;
+	margin: 4px 0 0 0;
+	left: -1px;
+	width: 494px;
+}
+
+#dropDownUL ul.dropDownUL-level-2 li{
+	color: #606060;
+	font: bold 1.1em arial, sans-serif;
+	display: block;
+	left: 276px;
+	top: 24px;
+	width: 540px;
+	width: 23%;
+	border-left: 1px dotted #B3C1C9; 
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 0;
+	padding: 0 0 0 9px;
+}
+
+#dropDownUL ul.dropDownUL-level-2 li:first-child{
+	border-left: 0;
+}
+
+#dropDownUl ul.dropDownUL-level-2 li a{
+	color: #606060;
+	font: bold 1.1em arial, sans-serif;
+}
+#container #header #dropDownUL ul.dropDownUL-level-3{
+	padding-top: 6px;
+	position: static;
+}
+#dropDownUL ul.dropDownUL-level-3 li{
+	float: none;
+	padding: 3px 0;
+	width: 100%;
+	left: 0;
+	border: 0;
+}
+
+#container #header #nav #dropDownUL ul.dropDownUL-level-3 li a{
+	font: normal 0.9em arial, sans-serif;
+	color: #2971a7;
+	padding: 0 0 0 10px;
+	background-image: url("../images/dropdownArrowSm.gif") !important;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+}
+
+/* Hero Styles */
 #container #hero {
 	clear: both;
 	position: relative;
 	text-align: center;
 	height: 340px;
-
 }
 
 #container #hero img {
