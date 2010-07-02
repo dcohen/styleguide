@@ -672,6 +672,7 @@ div.module a:hover {
 	text-transform: capitalize;
 	padding-left: 32px;
 	margin: 0;
+	display: block;
 }
 #SGSN1 ul li ul li a:hover{
 	background: transparent url("../images/SGSN1ArrowOn.gif") no-repeat;
