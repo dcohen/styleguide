@@ -414,6 +414,14 @@ body
 	background-position: right center;
 }
 
+#container #contentColumns #col1.fullRail {
+	margin-top: 25px;
+	width: 900px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 #container #contentColumns #col2 {
 	padding-right: 30px;
