@@ -478,8 +478,10 @@ body
 	background-image: url(../images/bgInnerRightColumnShadow.gif);
 	background-repeat: no-repeat;
 	margin: 12px;
+	height: 100%;
 	min-height: 600px;
 	width: 100%;
+	
 }
 
 #container #contentColumns.bgRepeating #col1 div.innerWorkspaceShadow {
