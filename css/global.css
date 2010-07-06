@@ -412,6 +412,7 @@ body
 	width: 217px;
 }
 
+
 #container #contentColumns #col2 {
 	padding-right: 30px;
 	margin-left: 240px;
@@ -437,11 +438,19 @@ body
 	height: 15px;
 }
 
+#container #contentColumns.bgRepeating div.topCap {
+	background-image: url(../images/bgContentShadowTopRepeating.gif);
+}
+
 #container #contentColumns div.bottomCap {
 	clear: both;
 	background-image: url(../images/bgContentShadowBottom.gif);
 	background-repeat: no-repeat;
 	height: 15px;
+}
+
+#container #contentColumns.bgRepeating div.bottomCap {
+	background-image: url(../images/bgContentShadowBottomRepeating.gif);
 }
 
 #container #contentColumns #col1 div.innerWorkspaceShadow,
@@ -451,6 +460,12 @@ body
 	margin: 12px;
 	min-height: 600px;
 	width: 100%;
+}
+
+#container #contentColumns.bgRepeating #col1 div.innerWorkspaceShadow {
+	background-image: url(../images/bgCol1Repeating.gif);
+	background-repeat: repeat-y;
+	background-position: left;
 }
 
 #container #contentColumns #col3 div.innerWorkspaceShadow {
