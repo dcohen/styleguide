@@ -413,18 +413,19 @@ body
 	width: 217px;
 }
 
-#container #contentColumns #col1.fullRail {
+#container #contentColumns #col2.fullRail {
 	margin-top: 25px;
 	width: 900px;
 	float: none;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0;
 }
 
 
 #container #contentColumns #col2 {
 	padding-right: 30px;
-	margin-left: 240px;
+	margin-left: 252px;
 }
 
 #container #contentColumns #col2.middleRail {
@@ -501,10 +502,23 @@ div.module h2 {
 	line-height: 20px;
 }
 
-#col2 div.module h2 {
+div.module h3 {
 	color: #00415f;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: Arial, serif;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dad1c1;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#col2 div.module h2 {
+	color: #555;
 	font-size: 20px;
 }
+
+
 
 #col1 div.module {
 	margin: 0 20px 25px 25px;
@@ -512,7 +526,7 @@ div.module h2 {
 
 #col2 div.module {
 	margin: 0px 0px 25px 0px;
-	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 #col3 div.module {
@@ -660,6 +674,20 @@ div.module a:hover {
 	font-family: Arial, serif;
 	font-size: 10px;
 	letter-spacing: 1px;
+}
+
+#SGLM1 /*Layout Module 1 (Big Left Column)*/ {
+	
+}
+
+#SGLM1 div.col1 {
+	float: left;
+	width: 450px;
+}
+
+#SGLM1 div.col2 {
+	margin-left: 490px;
+	width: 180px;
 }
 
 /* Left Navigation - module SGSN1 */							
