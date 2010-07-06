@@ -123,7 +123,7 @@ body
 #container #header #nav ul li a {
 	font-family: Times, serif;
 	font-size: 1.2em;
-	color: #606060;
+	color: #555;
 	text-transform: uppercase;
 	text-decoration: none;
 	margin-left: 5px;
@@ -146,7 +146,7 @@ body
 	position: absolute;
 	float: none;
 	z-index: 100;
-	color: #606060;
+	color: #555;
 }
 
 #container #header #nav ul li ul li a {
@@ -227,7 +227,7 @@ body
 }
 
 #dropDownUL ul.dropDownUL-level-2 li{
-	color: #606060;
+	color: #555;
 	font: bold 1.1em arial, sans-serif;
 	display: block;
 	left: 276px;
@@ -246,7 +246,7 @@ body
 }
 
 #dropDownUl ul.dropDownUL-level-2 li a{
-	color: #606060;
+	color: #555;
 	font: bold 1.1em arial, sans-serif;
 }
 
@@ -479,8 +479,10 @@ body
 	background-image: url(../images/bgInnerRightColumnShadow.gif);
 	background-repeat: no-repeat;
 	margin: 12px;
+	height: 100%;
 	min-height: 600px;
 	width: 100%;
+	
 }
 
 #container #contentColumns.bgRepeating #col1 div.innerWorkspaceShadow {
@@ -504,7 +506,7 @@ body
 /* MODULES */
 
 div.module h2 {
-	font-size: 17px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #555;
 	font-family: Arial, serif;
@@ -513,6 +515,10 @@ div.module h2 {
 	display: block;
 	margin-bottom: 20px;
 	line-height: 20px;
+}
+
+#col2.middleRail div.module h2 {
+	color: #00415f;
 }
 
 div.module h3 {
@@ -526,6 +532,10 @@ div.module h3 {
 	margin-bottom: 20px;
 }
 
+#col2.middleRail div.module h3 {
+	color: #555;
+}
+
 div.module h4 {
 	color: #555;
 	font-size: 14px;
@@ -535,10 +545,6 @@ div.module h4 {
 	line-height: 16px;
 }
 
-#col2 div.module h2 {
-	color: #555;
-	font-size: 20px;
-}
 
 
 
@@ -548,7 +554,6 @@ div.module h4 {
 
 #col2 div.module {
 	margin: 0px 0px 25px 0px;
-	padding-bottom: 12px;
 }
 
 #col3 div.module {
@@ -586,7 +591,6 @@ div.module a.more {
 	font-style: italic;
 	display: block;
 	text-align: right;
-	margin-top: 1.0em;
 }
 
 div.module a:hover {
@@ -822,7 +826,7 @@ div.module a:hover {
 
 #SGN2 dl dt {
 	font-family: Times, serif;
-	color: #606060;
+	color: #555;
 	font-size: 12px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
