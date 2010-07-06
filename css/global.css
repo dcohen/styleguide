@@ -182,10 +182,10 @@ body
 	padding-right: 10px;
 	z-index: 105;
 	position: relative;
-	border-bottom: 1px solid #F6F3EB;
 	border-left: 1px solid #b3c1c9;
+	/*border-bottom: 1px solid #F6F3EB;	
 	border-top: 1px solid #b3c1c9;
-	border-right: 1px solid #b3c1c9;
+	border-right: 1px solid #b3c1c9;*/
 }
 
 #container #header #dropDownUL .dropDownLink-level-1{
@@ -216,6 +216,7 @@ body
 	background-position: left top;
 	padding: 20px 0 20px 10px;
 	border: 1px solid #B3C1C9;
+	border-top: 0 none;
 	margin: 4px 0 0 0;
 	left: -1px;
 	width: 494px;
@@ -265,22 +266,21 @@ body
 	background-position: 0 50%;
 }
 
-/* Hero Styles */
-#container #hero {
+#SGH1 /* SGH1 - Full hero */ {
 	clear: both;
 	position: relative;
 	text-align: center;
 	height: 340px;
 }
 
-#container #hero img {
+#SGH1 img {
 	position: absolute;
 	left: 0;
 	top: 7px;
 	z-index: 1;
 }
 
-#container #hero #heroContent {
+#SGH1 #heroContent {
 	text-align: left;
 	position: absolute;
 	background-image: url(../images/bgHeroShadow.png);
@@ -291,24 +291,24 @@ body
 	z-index: 2;
 }
 
-#container #hero #heroContent div.left {
+#SGH1 #heroContent div.left {
 	width: 460px;
 	height: 100%;
 	float: left;
 }
 
-#container #hero #heroContent div.left img {
+#SGH1 #heroContent div.left img {
 	margin-left: 53px;
 	margin-top: 115px;
 }
 
-#container #hero #heroContent div.right {
+#SGH1 #heroContent div.right {
 	color: #fff;
 	width: 375px;
 	float: left;
 }
 
-#container #hero #heroContent div.right h2 {
+#SGH1 #heroContent div.right h2 {
 	font-size: 12px;
 	font-family: Times, serif;
 	font-weight: bold;
@@ -321,25 +321,25 @@ body
 	background-repeat: no-repeat;
 }
 
-#container #hero #heroContent div.right p {
+#SGH1 #heroContent div.right p {
 	font-size: 13px;
 	font-family: Arial, sans-serif;
 	line-height: 18px;
 }
 
-#container #hero #heroContent div.right div.carousel {
+#SGH1 #heroContent div.right div.carousel {
 	margin-top: 15px;
 }
 
-#container #hero #heroContent div.right div.carousel ul {
+#SGH1 #heroContent div.right div.carousel ul {
 	float: right;
 }
 
-#container #hero #heroContent div.right div.carousel ul li {
+#SGH1 #heroContent div.right div.carousel ul li {
 	float: left;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a {
+#SGH1 #heroContent div.right div.carousel ul li a {
 	width: 12px;
 	height: 12px;
 	display: block;
@@ -350,48 +350,51 @@ body
 	cursor: pointer;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a.current {
+#SGH1 #heroContent div.right div.carousel ul li a.current {
 	background-color: #b2902c;	
 }
 
-#container #hero #heroContent div.right div.carousel ul li a:hover {
+#SGH1 #heroContent div.right div.carousel ul li a:hover {
 	background-color: #bcaa8c;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a.prev,
-#container #hero #heroContent div.right div.carousel ul li a.next {
+#SGH1 #heroContent div.right div.carousel ul li a.prev,
+#SGH1 #heroContent div.right div.carousel ul li a.next {
 	background-color: transparent;
 	background-image: url(../images/carouselNavArrows.gif);
 	width: 6px;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a.prev {
+#SGH1 #heroContent div.right div.carousel ul li a.prev {
 	background-position: left;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a.next {
+#SGH1 #heroContent div.right div.carousel ul li a.next {
 	background-position: right;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a.prev:hover,
-#container #hero #heroContent div.right div.carousel ul li a.next:hover {
+#SGH1 #heroContent div.right div.carousel ul li a.prev:hover,
+#SGH1 #heroContent div.right div.carousel ul li a.next:hover {
 	background-image: url(../images/carouselNavArrowsOn.gif);
 }
 
-/* SGH2 - Mini hero */
-#container #hero #heroSmallContent {
-	text-align: left;
-	position: absolute;
-	width: 953px;
+#SGH2 /* SGH2 - Mini hero */ {
+	position: relative;
+	width: 960px;
 	height: 70px;
-	z-index: 2;
+	clear: both;
 }
 
-#container #hero #heroSmallContent img{
-	z-index: 1;
+#SGH2 img {
 	position: absolute;
+	text-align: center;
+	top: 0px;
+}
+
+#SGH2 img.overlay {
 	left: 16px;
-	top: 24px;
+	top: 17px;
+	z-index: 1;
 }
 
 #container #contentColumns {
@@ -529,7 +532,7 @@ div.module a:hover {
 }
 
 #SGM1 /*Generic with More*/ {
-	clear: both;
+
 }
 
 #SGM1 ul {
@@ -672,7 +675,6 @@ div.module a:hover {
 	text-transform: capitalize;
 	padding-left: 32px;
 	margin: 0;
-	display: block;
 }
 #SGSN1 ul li ul li a:hover{
 	background: transparent url("../images/SGSN1ArrowOn.gif") no-repeat;
