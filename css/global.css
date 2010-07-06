@@ -245,6 +245,7 @@ body
 	color: #606060;
 	font: bold 1.1em arial, sans-serif;
 }
+
 #container #header #dropDownUL ul.dropDownUL-level-3{
 	padding-top: 6px;
 	position: static;
@@ -264,6 +265,10 @@ body
 	background-image: url("../images/dropdownArrowSm.gif") !important;
 	background-repeat: no-repeat;
 	background-position: 0 50%;
+}
+
+#container #header #nav #dropDownUL ul.dropDownUL-level-3 li a:hover {
+	text-decoration: underline;
 }
 
 #SGH1 /* SGH1 - Full hero */ {
