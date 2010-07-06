@@ -158,8 +158,7 @@ body
 
 /* Dropdown Menu */
 #nav #dropDownUL{
-	/*margin: 40px 0 6px 0;*/
-	margin-top: 40px; /* jt - need to change this for dropdown menu */
+	margin-top: 35px;
 }
 
 #dropDownUL{
