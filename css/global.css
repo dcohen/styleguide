@@ -249,6 +249,7 @@ body
 	color: #606060;
 	font: bold 1.1em arial, sans-serif;
 }
+
 #container #header #dropDownUL ul.dropDownUL-level-3{
 	padding-top: 6px;
 	position: static;
@@ -268,6 +269,10 @@ body
 	background-image: url("../images/dropdownArrowSm.gif") !important;
 	background-repeat: no-repeat;
 	background-position: 0 50%;
+}
+
+#container #header #nav #dropDownUL ul.dropDownUL-level-3 li a:hover {
+	text-decoration: underline;
 }
 
 #SGH1 /* SGH1 - Full hero */ {
@@ -418,18 +423,19 @@ body
 	background-position: right top;
 }
 
-#container #contentColumns #col1.fullRail {
-	margin-top: 25px;
+#container #contentColumns #col2.fullRail {
 	width: 900px;
 	float: none;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 0;
 }
 
 
 #container #contentColumns #col2 {
+	margin-top: 25px;
 	padding-right: 30px;
-	margin-left: 245px;
+	margin-left: 252px;
 }
 
 #container #contentColumns #col2.middleRail {
@@ -508,10 +514,32 @@ div.module h2 {
 	line-height: 20px;
 }
 
-#col2 div.module h2 {
+div.module h3 {
 	color: #00415f;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: Arial, serif;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dad1c1;
+	display: block;
+	margin-bottom: 20px;
+}
+
+div.module h4 {
+	color: #555;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, serif;
+	display: block;
+	line-height: 16px;
+}
+
+#col2 div.module h2 {
+	color: #555;
 	font-size: 20px;
 }
+
+
 
 #col1 div.module {
 	margin: 0 20px 25px 25px;
@@ -519,7 +547,7 @@ div.module h2 {
 
 #col2 div.module {
 	margin: 0px 0px 25px 0px;
-	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 #col3 div.module {
@@ -531,6 +559,7 @@ div.module p {
 	color: #555;
 	font-family: Arial, serif;
 	line-height: 14px;
+	margin-bottom: 1.0em;
 }
 
 #col2 div.module p {
@@ -547,6 +576,7 @@ div.module p {
 div.module a {
 	color: #2a72a7;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 div.module a.more {
@@ -669,7 +699,41 @@ div.module a:hover {
 	letter-spacing: 1px;
 }
 
-/* Left Navigation - module SGSN1 */							
+#SGM5 /*Quick Links*/ {
+	
+}
+
+#SGM5 ul {
+	margin: 0;
+}
+
+#SGM5 ul li {
+	list-style: inside url(../images/iconRaquoGeneric.gif);
+}
+
+#SGM5 ul li a {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#SGLM1 /*Layout Module 1 (Big Left Column)*/ {
+	
+}
+
+#SGLM1 div.col1 {
+	float: left;
+	width: 450px;
+}
+
+#SGLM1 div.col2 {
+	margin-left: 490px;
+	width: 180px;
+}
+
+#SGSN1 /* Left Navigation - module SGSN1 */	{
+	padding-top: 25px;
+}
+						
 #SGSN1 ul li{
 	margin-bottom: 1em;
 }
