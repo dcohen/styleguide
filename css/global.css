@@ -400,7 +400,7 @@ body
 #container #contentColumns {
 	clear: both;
 	background-image: url(../images/bgContentShadowLeftAndRight.gif);
-	background-position: top left;
+	background-position: 1px top;
 	width: 100%;
 	background-repeat: repeat-y;
 	margin-top: 20px;
@@ -409,13 +409,15 @@ body
 
 #container #contentColumns #col1 {
 	float: left;
-	width: 217px;
+	width: 235px;
+	background: url(../images/bgCol1Shadow.jpg) no-repeat;
+	background-position: right center;
 }
 
 
 #container #contentColumns #col2 {
 	padding-right: 30px;
-	margin-left: 240px;
+	margin-left: 245px;
 }
 
 #container #contentColumns #col2.middleRail {
@@ -465,7 +467,9 @@ body
 #container #contentColumns.bgRepeating #col1 div.innerWorkspaceShadow {
 	background-image: url(../images/bgCol1Repeating.gif);
 	background-repeat: repeat-y;
-	background-position: left;
+	background-position: right middle;
+	margin: 0 0 0 11px;
+	width: 210px;
 }
 
 #container #contentColumns #col3 div.innerWorkspaceShadow {
@@ -680,6 +684,10 @@ div.module a:hover {
 
 #SGSN1 ul li ul li{
 	margin-bottom: 12px;
+}
+
+#SGSN1 ul li ul li.current{
+	padding-right: 1px;
 }
 
 /* second level links */
