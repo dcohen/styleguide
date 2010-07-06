@@ -679,6 +679,23 @@ div.module a:hover {
 	letter-spacing: 1px;
 }
 
+#SGM5 /*Quick Links*/ {
+	
+}
+
+#SGM5 ul {
+	margin: 0;
+}
+
+#SGM5 ul li {
+	list-style: inside url(../images/iconRaquoGeneric.gif);
+}
+
+#SGM5 ul li a {
+	font-size: 12px;
+	line-height: 18px;
+}
+
 #SGLM1 /*Layout Module 1 (Big Left Column)*/ {
 	
 }
