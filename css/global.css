@@ -415,7 +415,6 @@ body
 }
 
 #container #contentColumns #col2.fullRail {
-	margin-top: 25px;
 	width: 900px;
 	float: none;
 	margin-left: auto;
@@ -425,6 +424,7 @@ body
 
 
 #container #contentColumns #col2 {
+	margin-top: 25px;
 	padding-right: 30px;
 	margin-left: 252px;
 }
@@ -550,6 +550,7 @@ div.module p {
 	color: #555;
 	font-family: Arial, serif;
 	line-height: 14px;
+	margin-bottom: 1.0em;
 }
 
 #col2 div.module p {
@@ -566,6 +567,7 @@ div.module p {
 div.module a {
 	color: #2a72a7;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 div.module a.more {
