@@ -11,6 +11,10 @@ body
 
 /* Structure */
 
+.left{ float: left; }
+.right{ float: right; }
+.inline{ display: inline; }
+
 #container
 {
 	min-height: 100%;
@@ -411,7 +415,7 @@ body
 	float: left;
 	width: 235px;
 	background: url(../images/bgCol1Shadow.jpg) no-repeat;
-	background-position: right center;
+	background-position: right top;
 }
 
 #container #contentColumns #col1.fullRail {
@@ -772,6 +776,47 @@ div.module a:hover {
 	background-repeat: no-repeat;
 }
 
+/* Resources and Print buttons */
+.resourcePrintDiv{
+	height: 21px;
+	border-bottom: 1px solid #DAD1C1;
+	margin-bottom: 20px;
+}
+
+#col2 div.module .resourcePrintDiv h2{
+	border: none;
+	margin: 0;
+}	
+
+.resourcePrintDiv #btnresources{
+	background: url(../images/buttonresources.gif) no-repeat;
+	height: 15px;
+	width: 85px;
+}
+
+.resourcePrintDiv #btnprint{
+	background: url(../images/buttonprint.gif) no-repeat;
+	height: 15px;
+	width: 60px;
+}
+
+.resourcePrintDiv .button{
+	color: #555;
+	float: right;
+	font: 1.0em arial, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 4px 0 0 8px;
+	display: block;
+}
+
+div.module .resourcePrintDiv #btnresources:hover, div.module .resourcePrintDiv #btnprint:hover{
+	background-position: 0 -22px;
+	color: #827150;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	padding: 4px 0 0 8px;
+}
 /* Module Gallery - Global Modules Table */
 .modulesTable{
 	width: 100%;
