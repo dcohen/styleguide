@@ -112,6 +112,11 @@ body
 	position: relative;
 }
 
+#container2{
+	background: url(../images/bgCol1Repeating.gif) repeat-y;
+	background-position: 11px 0;
+}
+
 #nav ul {
 	float: left;
 }
@@ -177,19 +182,16 @@ body
 
 #container #header #dropDownUL .dropDownLI-level-1{
 	background: transparent url(../images/iconRaquo.gif) no-repeat;
-	padding-right: 10px;
 	background-position: 91% 9px;
+	padding: 8px 20px 5px 10px;
 }
 
 #container #header #dropDownUL .dropDownLI-level-1:hover{
-	background: url(../images/dropDownBG.jpg);
-	padding-right: 10px;
+	background: url(../images/dropDownChannelsShadow.gif) no-repeat;
+	background-position: -1px -1px;
 	z-index: 105;
 	position: relative;
 	border-left: 1px solid #b3c1c9;
-	/*border-bottom: 1px solid #F6F3EB;	
-	border-top: 1px solid #b3c1c9;
-	border-right: 1px solid #b3c1c9;*/
 }
 
 #container #header #dropDownUL .dropDownLink-level-1{
@@ -202,8 +204,8 @@ body
 }
 
 #container #header #dropDownUL .dropDownLI-level-1:hover .shadow{
-	background: #f6f3eb url(../images/iconRaquo2.gif) no-repeat;
-	background-position: 91% center;
+	/*background: #f6f3eb url(../images/iconRaquo2.gif) no-repeat;
+	background-position: 91% center;*/
 }
 
 #container #header #nav ul li.dropDown ul li a {
@@ -217,13 +219,14 @@ body
 #dropDownUL ul.dropDownUL-level-2{
 	display: none;
 	background: #F6F3EB url("../images/dropDownBG.jpg") repeat-y;
-	background-position: left top;
+	background-position: -1px top;
 	padding: 20px 0 20px 10px;
 	border: 1px solid #B3C1C9;
 	border-top: 0 none;
 	margin: 4px 0 0 0;
 	left: -1px;
-	width: 494px;
+	width: 498px;
+	top: 19px;
 }
 
 #dropDownUL ul.dropDownUL-level-2 li{
@@ -392,6 +395,7 @@ body
 	width: 960px;
 	height: 70px;
 	clear: both;
+	left: 3px;
 }
 
 #SGH2 img {
@@ -436,6 +440,11 @@ body
 	margin-top: 15px;
 	padding-right: 30px;
 	margin-left: 252px;
+}
+
+#contentColumns #container2 #col2{
+	padding-top: 25px;
+	margin-top: 0;
 }
 
 #container #contentColumns #col2.middleRail {
@@ -962,6 +971,97 @@ div.module .modulesTable a{
 .photosTable .col2{
 	padding: 0 0 0 10px;
 }
+
+/* Start SGM6 - Channels Section */
+#SGM6-div{
+	margin-bottom: 55px;
+}
+
+#SGM6-div h2{
+	border-bottom: 1px solid #DAD1C1;
+	color: #555;
+	font: bold 20px arial, sans-serif;
+	margin: 25px 0 20px 0;
+}
+
+#SGM6-div h2:first-child{
+	margin-top: 0;
+}
+
+.channel-thumb-div{
+	float: left;
+	width: 18%;
+}
+
+.channel-dl{
+	float: left;
+	width: 20%;
+}
+
+.channel-dl dt{
+	text-transform: uppercase;
+	font: 1.2em "Times New Roman", serif;
+	color: #606060;
+	padding-bottom: 8px;
+	letter-spacing: 1px;
+}
+
+.channel-dl dt span{
+	border-bottom: 2px solid #d7d7d7;
+}
+
+.channel-dl dd{
+	padding: 1px 0 2px 10px;
+}
+
+.channel-dl dd{
+	background: url("../images/arrowblue.gif") no-repeat;
+	background-position: left center;
+}
+
+.channel-dl dd a{
+	text-decoration: none;
+	font: 1.2em arial, sans-serif;
+	color: #2971a7;
+}
+
+.channel-dl dd a:hover{
+	text-decoration: underline;
+}
+
+/* End SGM6 - Channels Section Style */
+
+/* Begin SGLM2 - Grids Section */
+
+#col2 div#SGLM2{
+	padding-bottom: 25px;
+	margin-bottom: 0;
+}
+
+#SGLM2 .col1{
+	width: 191px;
+	float: left;
+}
+
+#SGLM2 .col2{
+	width: 430px;
+	float: right;
+}
+
+#SGLM2 h3{
+	margin-top: 30px;
+}
+
+#SGLM2 h3:first-child{
+	margin-top: 0;
+}
+
+#col2 div#SGLM2 p{
+	font: 1.1em arial, sans-serif;
+	line-height: 1.3em;
+}
+
+/* End SGLM2 - Grids Section */
 
 /* MISC */
 div.clear {
