@@ -1021,6 +1021,37 @@ div.module .modulesTable a{
 
 /* End SGM6 - Channels Section Style */
 
+/* Begin SGLM2 - Grids Section */
+
+#SGLM2{
+
+}
+
+#SGLM2 .col1{
+	width: 191px;
+	float: left;
+}
+
+#SGLM2 .col2{
+	width: 430px;
+	float: right;
+}
+
+#SGLM2 h3{
+	margin-top: 30px;
+}
+
+#SGLM2 h3:first-child{
+	margin-top: 0;
+}
+
+#col2 div#SGLM2 p{
+	font: 1.1em arial, sans-serif;
+	line-height: 1.3em;
+}
+
+/* End SGLM2 - Grids Section */
+
 /* MISC */
 div.clear {
 	clear: both;
