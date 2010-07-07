@@ -177,19 +177,17 @@ body
 
 #container #header #dropDownUL .dropDownLI-level-1{
 	background: transparent url(../images/iconRaquo.gif) no-repeat;
-	padding-right: 10px;
+	padding: 8px 20px 5px 10px;
 	background-position: 91% 9px;
 }
 
 #container #header #dropDownUL .dropDownLI-level-1:hover{
-	background: url(../images/dropDownBG.jpg);
-	padding-right: 10px;
+	/*background: url(../images/dropDownBG.jpg);*/
+	background: transparent url(../images/dropDownChannelsShadow2.gif) no-repeat;
+	background-position: -1px -1px;
 	z-index: 105;
 	position: relative;
 	border-left: 1px solid #b3c1c9;
-	/*border-bottom: 1px solid #F6F3EB;	
-	border-top: 1px solid #b3c1c9;
-	border-right: 1px solid #b3c1c9;*/
 }
 
 #container #header #dropDownUL .dropDownLink-level-1{
@@ -202,8 +200,8 @@ body
 }
 
 #container #header #dropDownUL .dropDownLI-level-1:hover .shadow{
-	background: #f6f3eb url(../images/iconRaquo2.gif) no-repeat;
-	background-position: 91% center;
+	/*background: #f6f3eb url(../images/iconRaquo2.gif) no-repeat;
+	background-position: 91% center;*/
 }
 
 #container #header #nav ul li.dropDown ul li a {
@@ -217,13 +215,14 @@ body
 #dropDownUL ul.dropDownUL-level-2{
 	display: none;
 	background: #F6F3EB url("../images/dropDownBG.jpg") repeat-y;
-	background-position: left top;
+	background-position: -1px top;
 	padding: 20px 0 20px 10px;
 	border: 1px solid #B3C1C9;
 	border-top: 0 none;
 	margin: 4px 0 0 0;
 	left: -1px;
-	width: 494px;
+	width: 498px;
+	top: 19px;
 }
 
 #dropDownUL ul.dropDownUL-level-2 li{
