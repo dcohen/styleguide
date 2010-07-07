@@ -146,7 +146,7 @@ body
 	margin-left: 0;
 }
 
-#container #hero {
+#SGH1 {
 	clear: both;
 	position: relative;
 	text-align: center;
@@ -154,22 +154,22 @@ body
 
 }
 
-#container #hero img {
+#SGH1 img {
 	position: absolute;
 	left: 0;
 	top: 7px;
 	z-index: 1;
 }
 
-#container #hero img.bgHero {
+#SGH1 img.bgHero {
 	display: none;
 }
 
-#container #hero img.bgHero.current {
+#SGH1 img.bgHero.current {
 	display: block;
 }
 
-#container #hero #heroContent {
+#SGH1 #heroContent {
 	text-align: left;
 	position: absolute;
 	background-image: url(../images/bgHeroShadow.png);
@@ -180,29 +180,29 @@ body
 	z-index: 2;
 }
 
-#container #hero #heroContent div.left {
+#SGH1 #heroContent div.left {
 	width: 460px;
 	height: 100%;
 	float: left;
 }
 
-#container #hero #heroContent div.left img {
+#SGH1 #heroContent div.left img {
 	margin-left: 53px;
 	margin-top: 115px;
 	display: none;
 }
 
-#container #hero #heroContent div.left img.current {
+#SGH1 #heroContent div.left img.current {
 	display: block;
 }
 
-#container #hero #heroContent div.right {
+#SGH1 #heroContent div.right {
 	color: #fff;
 	width: 375px;
 	float: left;
 }
 
-#container #hero #heroContent div.right h2 {
+#SGH1 #heroContent div.right h2 {
 	font-size: 12px;
 	font-family: Times, serif;
 	font-weight: bold;
@@ -215,30 +215,30 @@ body
 	background-repeat: no-repeat;
 }
 
-#container #hero #heroContent div.right p {
+#SGH1 #heroContent div.right p {
 	font-size: 13px;
 	font-family: Arial, sans-serif;
 	line-height: 18px;
 	display: none;
 }
 
-#container #hero #heroContent div.right p.current {
+#SGH1 #heroContent div.right p.current {
 	display: block;
 }
 
-#container #hero #heroContent div.right div.carousel {
+#SGH1 #heroContent div.right div.carousel {
 	margin-top: 15px;
 }
 
-#container #hero #heroContent div.right div.carousel ul {
+#SGH1 #heroContent div.right div.carousel ul {
 	float: right;
 }
 
-#container #hero #heroContent div.right div.carousel ul li {
+#SGH1 #heroContent div.right div.carousel ul li {
 	float: left;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a {
+#SGH1 #heroContent div.right div.carousel ul li a {
 	width: 12px;
 	height: 12px;
 	display: block;
@@ -249,31 +249,31 @@ body
 	cursor: pointer;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a.current {
+#SGH1 #heroContent div.right div.carousel ul li a.current {
 	background-color: #b2902c;	
 }
 
-#container #hero #heroContent div.right div.carousel ul li a:hover {
+#SGH1 #heroContent div.right div.carousel ul li a:hover {
 	background-color: #bcaa8c;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a.prev,
-#container #hero #heroContent div.right div.carousel ul li a.next {
+#SGH1 #heroContent div.right div.carousel ul li a.prev,
+#SGH1 #heroContent div.right div.carousel ul li a.next {
 	background-color: transparent;
 	background-image: url(../images/carouselNavArrows.gif);
 	width: 6px;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a.prev {
+#SGH1 #heroContent div.right div.carousel ul li a.prev {
 	background-position: left;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a.next {
+#SGH1 #heroContent div.right div.carousel ul li a.next {
 	background-position: right;
 }
 
-#container #hero #heroContent div.right div.carousel ul li a.prev:hover,
-#container #hero #heroContent div.right div.carousel ul li a.next:hover {
+#SGH1 #heroContent div.right div.carousel ul li a.prev:hover,
+#SGH1 #heroContent div.right div.carousel ul li a.next:hover {
 	background-image: url(../images/carouselNavArrowsOn.gif);
 }
 
