@@ -177,13 +177,12 @@ body
 
 #container #header #dropDownUL .dropDownLI-level-1{
 	background: transparent url(../images/iconRaquo.gif) no-repeat;
-	padding: 8px 20px 5px 10px;
 	background-position: 91% 9px;
+	padding: 8px 20px 5px 10px;
 }
 
 #container #header #dropDownUL .dropDownLI-level-1:hover{
-	/*background: url(../images/dropDownBG.jpg);*/
-	background: transparent url(../images/dropDownChannelsShadow2.gif) no-repeat;
+	background: url(../images/dropDownChannelsShadow.gif) no-repeat;
 	background-position: -1px -1px;
 	z-index: 105;
 	position: relative;
