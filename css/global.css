@@ -1023,8 +1023,11 @@ div.module .modulesTable a{
 
 /* Begin SGLM2 - Grids Section */
 
-#SGLM2{
+#col2 div#SGLM2{
+	margin-bottom: 0;
+}
 
+#SGLM2-inner{
 }
 
 #SGLM2 .col1{
