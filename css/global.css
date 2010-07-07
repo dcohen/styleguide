@@ -963,6 +963,10 @@ div.module .modulesTable a{
 }
 
 /* Start SGM6 - Channels Section */
+#SGM6-div{
+	margin-bottom: 55px;
+}
+
 #SGM6-div h2{
 	border-bottom: 1px solid #DAD1C1;
 	color: #555;
@@ -1009,6 +1013,10 @@ div.module .modulesTable a{
 	text-decoration: none;
 	font: 1.2em arial, sans-serif;
 	color: #2971a7;
+}
+
+.channel-dl dd a:hover{
+	text-decoration: underline;
 }
 
 /* End SGM6 - Channels Section Style */
