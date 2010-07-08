@@ -431,6 +431,14 @@ body
 	z-index: 1;
 }
 
+#SGH3 /* SGH3 - Medium hero */ {
+	width: 960px;
+	height: 174px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
 #container #contentColumns {
 	clear: both;
 	background-image: url(../images/bgContentShadowLeftAndRight.gif);
