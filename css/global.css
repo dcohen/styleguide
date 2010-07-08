@@ -443,7 +443,7 @@ body
 
 #container #contentColumns #col1 {
 	float: left;
-	width: 215px;
+	width: 220px;
 	background: url(../images/bgCol1Shadow.jpg) no-repeat;
 	background-position: right top;
 }
@@ -470,15 +470,15 @@ body
 
 #container #contentColumns #col2.middleRail {
 	float: left;
-	margin-left: 23px;
+	margin-left: 32px; /* 20px + 12px for workspace */
 	width: 460px;
-	padding-right: 20px;
+	padding-right: 7px;
 	background-image: none;
 }
 
 #container #contentColumns #col3 {
 	float: left;
-	width: 217px;
+	width: 220px;
 }
 
 #container #contentColumns div.topCap {
@@ -507,7 +507,8 @@ body
 #container #contentColumns #col3 div.innerWorkspaceShadow {
 	background-image: url(../images/bgInnerRightColumnShadow.gif);
 	background-repeat: no-repeat;
-	margin: 12px;
+	margin-left: 12px;
+	margin-top: 18px;
 	height: 100%;
 	min-height: 600px;
 	width: 100%;
