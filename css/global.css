@@ -1061,6 +1061,14 @@ div.module .modulesTable a{
 	line-height: 1.3em;
 }
 
+#SGLM2 hr.dotted{
+	border: 1px dotted #c2a993;
+	border-style: none none dotted;
+	color: #FFF;
+	background: #FFF;
+	margin: 15px 0 17px 0;
+}
+
 /* End SGLM2 - Grids Section */
 
 /* MISC */
