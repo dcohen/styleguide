@@ -434,6 +434,7 @@ body
 #SGH3 /* SGH3 - Medium hero */ {
 	width: 960px;
 	height: 174px;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	clear: both;
@@ -774,6 +775,22 @@ div.module a:hover {
 	margin-left: 490px;
 	width: 180px;
 }
+
+#SGLM3 /*Layout Module 3 (Big Left Column in Single Column Layout)*/ {
+	
+}
+
+#SGLM3 div.col1 {
+	float: left;
+	width: 740px;
+}
+
+#SGLM3 div.col2 {
+	margin-left: 760px;
+	width: 120px;
+}
+
+
 
 #SGSN1 /* Left Navigation - module SGSN1 */	{
 
