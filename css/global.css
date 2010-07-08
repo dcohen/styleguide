@@ -112,6 +112,11 @@ body
 	position: relative;
 }
 
+#container2{
+	background: url(../images/bgCol1Repeating.gif) repeat-y;
+	background-position: 11px 0;
+}
+
 #nav ul {
 	float: left;
 }
@@ -453,9 +458,14 @@ body
 
 
 #container #contentColumns #col2 {
-	margin-top: 25px;
+	margin-top: 15px;
 	padding-right: 30px;
 	margin-left: 252px;
+}
+
+#contentColumns #container2 #col2{
+	padding-top: 25px;
+	margin-top: 0;
 }
 
 #container #contentColumns #col2.middleRail {
@@ -501,7 +511,6 @@ body
 	height: 100%;
 	min-height: 600px;
 	width: 100%;
-	
 }
 
 #container #contentColumns.bgRepeating #col1 div.innerWorkspaceShadow {
@@ -510,6 +519,7 @@ body
 	background-position: right middle;
 	margin: 0 0 0 11px;
 	width: 210px;
+	padding-top: 15px;
 }
 
 #container #contentColumns #col3 div.innerWorkspaceShadow {
@@ -755,7 +765,7 @@ div.module a:hover {
 }
 
 #SGSN1 /* Left Navigation - module SGSN1 */	{
-	padding-top: 25px;
+
 }
 						
 #SGSN1 ul li{
@@ -1044,8 +1054,9 @@ div.module .modulesTable a{
 
 /* Begin SGLM2 - Grids Section */
 
-#SGLM2{
-
+#col2 div#SGLM2{
+	padding-bottom: 25px;
+	margin-bottom: 0;
 }
 
 #SGLM2 .col1{
