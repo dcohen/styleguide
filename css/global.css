@@ -443,8 +443,11 @@ body
 }
 
 #contentColumns #container2 #col2{
-	padding-top: 25px;
+	padding: 25px 0 0 17px;
 	margin-top: 0;
+	width: 678px;
+	margin-left: 0;
+	float: left;
 }
 
 #container #contentColumns #col2.middleRail {
@@ -860,6 +863,18 @@ div.module a:hover {
 	margin-bottom: 20px;
 }
 
+#col2 div.module .resourcePrintDiv h1{
+	color: #555;
+	font: bold 20px arial, sans-serif;
+	line-height: 20px;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+#col2 div.module .resourcePrintDiv h3{
+	border-bottom: none;
+}
+
 #col2 div.module .resourcePrintDiv h2{
 	border: none;
 	margin: 0;
@@ -1061,15 +1076,70 @@ div.module .modulesTable a{
 	line-height: 1.3em;
 }
 
-#SGLM2 hr.dotted{
-	border: 1px dotted #c2a993;
-	border-style: none none dotted;
-	color: #FFF;
-	background: #FFF;
-	margin: 15px 0 17px 0;
-}
+
 
 /* End SGLM2 - Grids Section */
+
+/* Begin General Styles for Content */
+
+a.arrow{
+	background: url("../images/arrowblue.gif") no-repeat;
+	background-position: left center;
+	padding-left: 10px;
+}
+
+a.blue{
+	color: #2a72a7;
+}
+
+div.dotted{
+	border-top: 1px dotted #c2a993;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.text-column{
+	width: 80%;
+}
+
+#container #col2 div.text-column p{
+	font-size: 1.2em;
+}
+
+.text-column .left{
+	width: 55%;
+	text-align: left;
+}
+
+.text-column .right{
+	width: 45%;
+	text-align: right;
+}
+
+.text-column h4{
+	margin-bottom: 8px;
+	font-size: 1.2em;
+}
+
+.title-spacing{
+	margin-top: 35px;
+}
+
+#photobrand-div .left{
+	width: 40%;
+	text-align: left;
+}
+
+#photobrand-div .right{
+	width: 55%;
+	text-align: right;
+}
+
+
+
+
+
+/* End General Styles for Content */
 
 /* MISC */
 div.clear {
