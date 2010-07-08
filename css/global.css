@@ -443,7 +443,7 @@ body
 
 #container #contentColumns #col1 {
 	float: left;
-	width: 235px;
+	width: 215px;
 	background: url(../images/bgCol1Shadow.jpg) no-repeat;
 	background-position: right top;
 }
@@ -471,8 +471,8 @@ body
 #container #contentColumns #col2.middleRail {
 	float: left;
 	margin-left: 23px;
-	width: 480px;
-	padding-right: 0px;
+	width: 460px;
+	padding-right: 20px;
 	background-image: none;
 }
 
