@@ -451,7 +451,7 @@ body
 
 #container #contentColumns #col1 {
 	float: left;
-	width: 220px;
+	width: 215px;
 	background: url(../images/bgCol1Shadow.jpg) no-repeat;
 	background-position: right top;
 }
@@ -472,21 +472,24 @@ body
 }
 
 #contentColumns #container2 #col2{
-	padding-top: 25px;
+	padding: 25px 0 0 17px;
 	margin-top: 0;
+	width: 678px;
+	margin-left: 0;
+	float: left;
 }
 
 #container #contentColumns #col2.middleRail {
 	float: left;
-	margin-left: 32px; /* 20px + 12px for workspace */
+	margin-left: 23px;
 	width: 460px;
-	padding-right: 7px;
+	padding-right: 20px;
 	background-image: none;
 }
 
 #container #contentColumns #col3 {
 	float: left;
-	width: 220px;
+	width: 217px;
 }
 
 #container #contentColumns div.topCap {
@@ -515,8 +518,7 @@ body
 #container #contentColumns #col3 div.innerWorkspaceShadow {
 	background-image: url(../images/bgInnerRightColumnShadow.gif);
 	background-repeat: no-repeat;
-	margin-left: 12px;
-	margin-top: 18px;
+	margin: 12px;
 	height: 100%;
 	min-height: 600px;
 	width: 100%;
@@ -890,6 +892,22 @@ div.module a:hover {
 	margin-bottom: 20px;
 }
 
+#col2 div.module .resourcePrintDiv h1{
+	color: #555;
+	font: bold 20px arial, sans-serif;
+	line-height: 20px;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+#col2 div.module .resourcePrintDiv h3{
+	border-bottom: none;
+}
+
+#col2 div.module .resourcePrintDiv h3.blue{
+	color: #2A72A7;
+}
+
 #col2 div.module .resourcePrintDiv h2{
 	border: none;
 	margin: 0;
@@ -1091,7 +1109,150 @@ div.module .modulesTable a{
 	line-height: 1.3em;
 }
 
+
+
 /* End SGLM2 - Grids Section */
+
+/* Begin General Styles for Content */
+.bold{
+	font-weight: bold;
+}
+
+a.arrow{
+	background: url("../images/arrowblue.gif") no-repeat;
+	background-position: left center;
+	padding-left: 10px;
+}
+
+a.blue, .blue{
+	color: #2a72a7;
+}
+
+ul.disc{
+	list-style: disc outside none;
+	margin-left: 30px;
+}
+
+.align-right{ text-align: right; }
+.align-left{ text-align: left; }
+
+div.dotted{
+	border-top: 1px dotted #c2a993;
+	padding-top: 20px;
+	margin-top: 15px;
+}
+
+.text-column{
+	width: 80%;
+}
+
+#container #col2 div.text-column p{
+	font-size: 1.2em;
+}
+
+.text-column .left{
+	width: 55%;
+	text-align: left;
+}
+
+.text-column .right{
+	width: 45%;
+	text-align: right;
+}
+
+.text-column h4{
+	margin-bottom: 8px;
+	font-size: 1.2em;
+}
+
+.title-spacing{
+	margin-top: 35px;
+}
+
+/* End General Styles for Content */
+
+
+/* Begin Cotent Page specific styles */
+
+/* GW_Styleguide_Web_Photography.PSD */
+#photobrand-div .left{
+	width: 40%;
+	text-align: left;
+}
+
+#photobrand-div .right{
+	width: 55%;
+	text-align: right;
+}
+
+#photobrand-div ul.disc li{
+	font-size: 1.2em;
+	padding: 3px 0;
+	line-height: 1.4em;
+}
+
+#photobrand-div p{
+	font-size: 1.2em;
+}
+
+/* GW_Styleguide_Brand_logos.PSD */
+
+#logos-div{
+	padding-bottom: 25px;
+}
+
+#logos-div a.arrow{
+	font-size: 1.2em;
+	margin-left: 25px;
+}
+
+#logos-div .left{
+	width: 43%;
+}
+
+#logos-div .left p{
+	margin: 0;
+}
+
+#logos-div .right{
+	text-align: left;
+	width: 53%;
+}
+
+#logos-div h4{
+	font: bold 1.2em arial, sans-serif;
+	padding-bottom: 6px;
+	color: #2a72a7;
+}
+
+/* GW_Styleguide_Brand_Typefaces.PSD */
+#typo-div{
+	padding-bottom: 25px;
+}
+
+#typo-div h4{
+	text-transform: uppercase;
+	font-size: 1.0em;
+	padding-bottom: 15px;
+}
+
+#typo-div .arrow{
+	font-size: 1.2em;
+}
+
+#typo-div .more{
+	padding-top: 5px;
+}
+
+/* GW_Styleguide_GWSchoolWordmarks.PSd */
+#wordmarks-div{
+
+}
+
+
+
+/* End Content Page-specific styles */
+
 
 /* MISC */
 div.clear {
