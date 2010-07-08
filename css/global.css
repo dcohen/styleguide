@@ -875,6 +875,10 @@ div.module a:hover {
 	border-bottom: none;
 }
 
+#col2 div.module .resourcePrintDiv h3.blue{
+	color: #2A72A7;
+}
+
 #col2 div.module .resourcePrintDiv h2{
 	border: none;
 	margin: 0;
@@ -1081,6 +1085,9 @@ div.module .modulesTable a{
 /* End SGLM2 - Grids Section */
 
 /* Begin General Styles for Content */
+.bold{
+	font-weight: bold;
+}
 
 a.arrow{
 	background: url("../images/arrowblue.gif") no-repeat;
@@ -1088,8 +1095,13 @@ a.arrow{
 	padding-left: 10px;
 }
 
-a.blue{
+a.blue, .blue{
 	color: #2a72a7;
+}
+
+ul.disc{
+	list-style: disc outside none;
+	margin-left: 30px;
 }
 
 .align-right{ text-align: right; }
@@ -1128,6 +1140,12 @@ div.dotted{
 	margin-top: 35px;
 }
 
+/* End General Styles for Content */
+
+
+/* Begin Cotent Page specific styles */
+
+/* GW_Styleguide_Web_Photography.PSD */
 #photobrand-div .left{
 	width: 40%;
 	text-align: left;
@@ -1137,6 +1155,18 @@ div.dotted{
 	width: 55%;
 	text-align: right;
 }
+
+#photobrand-div ul.disc li{
+	font-size: 1.2em;
+	padding: 3px 0;
+	line-height: 1.4em;
+}
+
+#photobrand-div p{
+	font-size: 1.2em;
+}
+
+/* GW_Styleguide_Brand_logos.PSD */
 
 #logos-div{
 	padding-bottom: 25px;
@@ -1160,15 +1190,33 @@ div.dotted{
 	width: 53%;
 }
 
-
 #logos-div h4{
 	font: bold 1.2em arial, sans-serif;
 	padding-bottom: 6px;
 	color: #2a72a7;
 }
 
+/* GW_Styleguide_Brand_Typefaces.PSD */
+#typo-div{
+	padding-bottom: 25px;
+}
 
-/* End General Styles for Content */
+#typo-div h4{
+	text-transform: uppercase;
+	font-size: 1.0em;
+	padding-bottom: 15px;
+}
+
+#typo-div .arrow{
+	font-size: 1.2em;
+}
+
+#typo-div .more{
+	padding-top: 5px;
+}
+
+/* End Content Page-specific styles */
+
 
 /* MISC */
 div.clear {
