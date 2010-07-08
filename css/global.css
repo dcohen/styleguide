@@ -1092,10 +1092,13 @@ a.blue{
 	color: #2a72a7;
 }
 
+.align-right{ text-align: right; }
+.align-left{ text-align: left; }
+
 div.dotted{
 	border-top: 1px dotted #c2a993;
 	padding-top: 20px;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .text-column{
@@ -1135,8 +1138,34 @@ div.dotted{
 	text-align: right;
 }
 
+#logos-div{
+	padding-bottom: 25px;
+}
+
+#logos-div a.arrow{
+	font-size: 1.2em;
+	margin-left: 25px;
+}
+
+#logos-div .left{
+	width: 43%;
+}
+
+#logos-div .left p{
+	margin: 0;
+}
+
+#logos-div .right{
+	text-align: left;
+	width: 53%;
+}
 
 
+#logos-div h4{
+	font: bold 1.2em arial, sans-serif;
+	padding-bottom: 6px;
+	color: #2a72a7;
+}
 
 
 /* End General Styles for Content */
