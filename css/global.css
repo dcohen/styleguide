@@ -274,10 +274,12 @@ body
 }
 
 #SGH1 /* SGH1 - Full hero */ {
+
 	clear: both;
 	position: relative;
 	text-align: center;
 	height: 340px;
+
 }
 
 #SGH1 img {
@@ -285,6 +287,14 @@ body
 	left: 0;
 	top: 7px;
 	z-index: 1;
+}
+
+#SGH1 img.bgHero {
+	display: none;
+}
+
+#SGH1 img.bgHero.current {
+	display: block;
 }
 
 #SGH1 #heroContent {
@@ -307,6 +317,11 @@ body
 #SGH1 #heroContent div.left img {
 	margin-left: 53px;
 	margin-top: 115px;
+	display: none;
+}
+
+#SGH1 #heroContent div.left img.current {
+	display: block;
 }
 
 #SGH1 #heroContent div.right {
@@ -332,6 +347,11 @@ body
 	font-size: 13px;
 	font-family: Arial, sans-serif;
 	line-height: 18px;
+	display: none;
+}
+
+#SGH1 #heroContent div.right p.current {
+	display: block;
 }
 
 #SGH1 #heroContent div.right div.carousel {
@@ -384,6 +404,7 @@ body
 #SGH1 #heroContent div.right div.carousel ul li a.next:hover {
 	background-image: url(../images/carouselNavArrowsOn.gif);
 }
+
 
 #SGH2 /* SGH2 - Mini hero */ {
 	position: relative;
