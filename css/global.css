@@ -1330,14 +1330,26 @@ div.dotted{
 }
 
 /* GW_Styleguide_ImproperUseoftheGWWordmark */
-#impropergwm .left{
-	width: 30%;
+#impropergwm-div .left{
+	width: 33%;
 	text-align: center;
 }
 
-#impropergwm .left-2col{
+#impropergwm-div .left-2col{
 	width: 70%;
 	text-align: center;
+}
+
+#impropergwm-div ul.disc li{
+	font-size: 1.2em;
+	line-height: 1.3em;
+	padding: 0 0 15px 0;
+}
+
+#impropergwm-div h4.uppercase{
+	text-align: left;
+	padding: 11px 0 0 18px;
+	width: 145px; /* make width same as images */
 }
 
 /* End Content Page-specific styles */
