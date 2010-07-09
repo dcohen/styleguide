@@ -472,7 +472,7 @@ body
 }
 
 #contentColumns #container2 #col2{
-	padding: 25px 0 0 17px;
+	padding: 25px 0 0 37px;
 	margin-top: 0;
 	width: 678px;
 	margin-left: 0;
@@ -1249,6 +1249,22 @@ div.dotted{
 
 }
 
+#wordmarks-div ul.disc{
+	margin: 5px 0 5px 14px;
+}
+
+#wordmarks-div ul.disc li{
+	font-size: 1.2em;
+	list-style: disc outside none;
+	line-height: 1.3em;
+	padding: 0 0 3px 0;
+}
+
+#wordmarks-div h4{
+	text-transform: uppercase;
+	font: bold 1.0em arial, sans-serif;
+	margin: 20px 0 15px;
+}
 
 
 /* End Content Page-specific styles */
