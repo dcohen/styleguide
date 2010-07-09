@@ -1133,13 +1133,14 @@ ul.disc{
 	margin-left: 30px;
 }
 
-.align-right{ text-align: right; }
-.align-left{ text-align: left; }
+.align-right, #container .module div.align-right{ text-align: right; }
+.align-left, #container .module div.align-left{ text-align: left; }
+.align-center, #container .module div.align-center{ text-align: center; }
 
 div.dotted{
 	border-top: 1px dotted #c2a993;
 	padding-top: 20px;
-	margin-top: 15px;
+	margin-top: 20px;
 }
 
 .text-column{
@@ -1156,8 +1157,7 @@ div.dotted{
 }
 
 .text-column .right{
-	width: 45%;
-	text-align: right;
+	width: 50%;
 }
 
 .text-column h4{
@@ -1266,6 +1266,19 @@ div.dotted{
 	margin: 20px 0 15px;
 }
 
+/* GW_Styleguide_GWWordmarkSystem - GW Wordmark System Page */
+
+#wordmarksys-div .dotted .left{
+	width: 41%;
+}
+
+#wordmarksys-div .dotted .right{
+	text-align: left;
+}
+
+#wordmarksys-div .extrapad{
+	padding-top: 25px;
+}
 
 /* End Content Page-specific styles */
 
