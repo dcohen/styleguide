@@ -451,7 +451,7 @@ body
 
 #container #contentColumns #col1 {
 	float: left;
-	width: 215px;
+	width: 235px;
 	background: url(../images/bgCol1Shadow.jpg) no-repeat;
 	background-position: right top;
 }
@@ -472,7 +472,7 @@ body
 }
 
 #contentColumns #container2 #col2{
-	padding: 25px 0 0 37px;
+	padding: 25px 0 0 17px;
 	margin-top: 0;
 	width: 678px;
 	margin-left: 0;
