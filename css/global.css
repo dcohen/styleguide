@@ -431,6 +431,12 @@ body
 	z-index: 1;
 }
 
+#SGH2 img.overlay2{	/* for second overlay text, which is shorter */
+	left: 20px;
+	top: 21px;
+	z-index: 1;
+}
+
 #SGH3 /* SGH3 - Medium hero */ {
 	width: 960px;
 	height: 174px;
@@ -1133,6 +1139,10 @@ ul.disc{
 	margin-left: 30px;
 }
 
+#container ul.disc li{
+	list-style: disc outside none;
+}
+
 .align-right, #container .module div.align-right{ text-align: right; }
 .align-left, #container .module div.align-left{ text-align: left; }
 .align-center, #container .module div.align-center{ text-align: center; }
@@ -1163,6 +1173,11 @@ div.dotted{
 .text-column h4{
 	margin-bottom: 8px;
 	font-size: 1.2em;
+}
+
+.text-column h4.uppercase{
+	text-transform: uppercase;
+	font: bold 1.0em arial, sans-serif;
 }
 
 .title-spacing{
@@ -1280,6 +1295,39 @@ div.dotted{
 	padding-top: 25px;
 }
 
+/* GW_Styleguide_ImproperUseofTheGWSchoolWordmarks */
+#improperwm-div h4{
+	text-align: left;
+	text-transform: uppercase;
+	font: bold 1.0em arial, sans-serif;
+	margin: 20px 0 15px;
+}	
+
+#improperwm-div h4.short{
+	width: 165px;
+}
+
+#improperwm-div .left{
+	width: 50%;
+}
+
+#improperwm-div .right{
+	width: 42%;
+}
+
+#improperwm-div ul.disc li{
+	font-size: 1.2em;
+	line-height: 1.3em;
+	padding: 0 0 3px 0;
+}
+
+#improperwm-div div.dotted{
+	margin-top: 10px;
+}
+
+#improperwm-div .extrapad{
+	padding: 20px 43px 0 43px;
+}
 /* End Content Page-specific styles */
 
 
