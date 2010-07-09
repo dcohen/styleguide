@@ -1328,6 +1328,18 @@ div.dotted{
 #improperwm-div .extrapad{
 	padding: 20px 43px 0 43px;
 }
+
+/* GW_Styleguide_ImproperUseoftheGWWordmark */
+#impropergwm .left{
+	width: 30%;
+	text-align: center;
+}
+
+#impropergwm .left-2col{
+	width: 70%;
+	text-align: center;
+}
+
 /* End Content Page-specific styles */
 
 
