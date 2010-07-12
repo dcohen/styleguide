@@ -770,6 +770,76 @@ div.module a:hover {
 	line-height: 18px;
 }
 
+#SGM6 /* Alphabetical Listing Module */ {
+}
+
+#SGM6 div.letter {
+	margin:1.0em 0;
+}
+
+#SGM6 div.letter p {
+	margin:1.0em 0;
+	font-style:italic;
+	font-size:1.1em;
+}
+
+#SGM6 div.letter ul {
+	padding:0;
+	margin-top:1.0em;
+	margin-left:1.0em;
+	list-style:url(../images/arrowCM33List.gif) outside !important;
+}
+
+#SGM6 div.letter ul li {
+	margin-bottom:0.8em;
+}
+
+#SGM6 div.letter ul li a {
+	font-size:12px;
+}
+
+#SGM6 div.letter a {
+	margin:0;
+}
+
+#SGM6 div.letter a.pointer {
+	font-size:1.3em;
+	cursor:default;
+	font-weight:bold;
+}
+
+#SGM6 div.letter a.pointer:hover {
+	text-decoration:none;
+}
+
+#SGM6 div.letter .top {
+	text-align:right;
+	display:block;
+	font-size:1.0em;
+	font-weight:normal;
+	margin:0;
+}
+
+#SGM6 .alphabeticalNav ul {
+	margin:0;
+	padding:0;
+	background-color:#eae9e5;
+	height:30px;
+	line-height:30px;
+	font-weight:bold;
+	font-size:1.3em;
+	margin:20px 0;
+	list-style:none;
+}
+
+#SGM6 .alphabeticalNav ul li {
+	float:left;
+}
+
+#SGM6 .alphabeticalNav ul li a {
+	padding:0 8px 0 8px;
+}
+
 #SGLM1 /*Layout Module 1 (Big Left Column)*/ {
 	
 }
