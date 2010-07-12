@@ -458,13 +458,13 @@ body
 
 #container #contentColumns #col1 {
 	float: left;
-	width: 217px;
+	width: 212px;
 	background: url(../images/bgCol1Shadow.jpg) no-repeat;
 	background-position: right top;
 }
 
 #container #contentColumns #col2.fullRail {
-	width: 900px;
+	width: 860px;
 	float: none;
 	margin-left: auto;
 	margin-right: auto;
@@ -479,9 +479,9 @@ body
 }
 
 #contentColumns #container2 #col2{
-	padding: 25px 0 0 17px;
+	padding: 25px 0 0 40px;
 	margin-top: 0;
-	width: 678px;
+	width: 665px;
 	margin-left: 0;
 	float: left;
 }
@@ -536,7 +536,7 @@ body
 	background-repeat: repeat-y;
 	background-position: right middle;
 	margin: 0 0 0 11px;
-	width: 210px;
+	width: 212px;
 	padding-top: 15px;
 }
 
@@ -590,6 +590,16 @@ div.module h4 {
 	font-family: Arial, serif;
 	display: block;
 	line-height: 16px;
+	text-transform: uppercase;
+}
+
+div.module h5 {
+	font-size: 12px;
+	font-family: Arial, serif;
+	display: block;
+	line-height: 16px;
+	font-weight: bold;
+	color: #2871a7;
 }
 
 
@@ -613,6 +623,11 @@ div.module p {
 	font-family: Arial, serif;
 	line-height: 14px;
 	margin-bottom: 1.0em;
+}
+
+div.module ul li {
+	padding-left: 1.0em;
+	font-size: 12px;
 }
 
 #col2 div.module p {
@@ -777,21 +792,48 @@ div.module a:hover {
 	margin:1.0em 0;
 }
 
+
+#SGM6 p.default {
+	margin-left: 10px;
+	font-style: italic;
+	font-size: 11px;
+}
+
 #SGM6 div.letter p {
-	margin:1.0em 0;
-	font-style:italic;
-	font-size:1.1em;
+	
 }
 
 #SGM6 div.letter ul {
 	padding:0;
 	margin-top:1.0em;
 	margin-left:1.0em;
-	list-style:url(../images/arrowCM33List.gif) outside !important;
+	
 }
 
 #SGM6 div.letter ul li {
 	margin-bottom:0.8em;
+	list-style: inside url(../images/iconRaquoGeneric.gif);
+}
+
+#SGM6 div.letter ul li.selected {
+	background-color: #f4f1ec;
+	padding: 10px;
+	margin-left: -10px;
+}
+
+#SGM6 div.letter ul li.selected a {
+	/*color: #555 !important;*/
+}
+
+#SGM6 div.letter ul li p {
+	display: none;
+}
+
+#SGM6 div.letter ul li.selected p {
+	display: block;
+	margin-top: 10px;
+	margin-left: 12px;
+	margin-bottom: 0px;
 }
 
 #SGM6 div.letter ul li a {
@@ -803,13 +845,15 @@ div.module a:hover {
 }
 
 #SGM6 div.letter a.pointer {
-	font-size:1.3em;
-	cursor:default;
-	font-weight:bold;
+	font-size: 13px;
+	cursor: default;
+	font-weight: bold;
+	color: #555;
+	margin-left: 10px;
 }
 
 #SGM6 div.letter a.pointer:hover {
-	text-decoration:none;
+	text-decoration: none !important;
 }
 
 #SGM6 div.letter .top {
@@ -823,7 +867,7 @@ div.module a:hover {
 #SGM6 .alphabeticalNav ul {
 	margin:0;
 	padding:0;
-	background-color:#eae9e5;
+	background-color:#f4f1ec;
 	height:30px;
 	line-height:30px;
 	font-weight:bold;
@@ -846,7 +890,13 @@ div.module a:hover {
 
 #SGLM1 div.col1 {
 	float: left;
-	width: 450px;
+	width: 480px;
+}
+
+#SGLM1 div.col1 div.left {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
 }
 
 #SGLM1 div.col2 {
@@ -1459,4 +1509,13 @@ em, i {
 
 u {
 	text-decoration: underline;
+}
+
+
+hr {
+	background-image: url(../images/bgLetterDottedUnderline.gif);
+	border: none 0;
+	height: 1px;
+	display: block;
+	margin: 20px 0;
 }

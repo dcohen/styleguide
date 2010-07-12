@@ -24,5 +24,15 @@ $('div.carousel a').live('click',
 		prev = -lastSpotlight+1;
 		
 	$(this).parents().find('a.prev').attr('rel', parseInt(currentSpotlight)-prev);					
-	$(this).parents().find('a.next').attr('rel', parseInt(currentSpotlight)+next);				
+	$(this).parents().find('a.next').attr('rel', parseInt(currentSpotlight)+next);			
+});
+
+$('#SGM6 div.letter ul li a').live('click',
+	function() {
+		if($(this).parent().hasClass('selected')){
+			$(this).parent().removeClass('selected');
+		}
+		else {
+		$(this).parent().addClass('selected');
+		}
 });
