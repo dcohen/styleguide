@@ -320,8 +320,8 @@ body
 }
 
 #SGH1 #heroContent div.left img {
-	margin-left: 53px;
-	margin-top: 115px;
+	margin-left: 60px;
+	margin-top: 85px;
 	display: none;
 }
 
@@ -644,49 +644,51 @@ div.module a:hover {
 	text-decoration: underline !important;
 }
 
-#SGM1 /*Generic with More*/ {
+.SGM1 /*Generic with More*/ {
 
 }
 
-#SGM1 ul {
+.SGM1 ul {
 	margin: 1.0em 0 1.0em 1.0em;
 }
 
-#SGM1 ul li {
+.SGM1 ul li {
 	list-style: inside url(../images/iconRaquoGeneric.gif);
 }
 
-#SGM1 ul li a {
+.SGM1 ul li a {
 	font-size: 11px;
 	line-height: 14px;
 }
 
-#SGM1 dl.dotted{
-	border-top: 1px dotted #DAD1C1;
+.SGM1 dl.dotted{
+	background-image: url(../images/bgDottedBorderTop.gif);
+	background-position: right top;
+	background-repeat: no-repeat;
 	padding: 0.8em 0 0.5em 0;
 	margin-top: 0.6em;
-	float: left;
 }
 
-#SGM1 dl.dotted dt{
+.SGM1 dl.dotted dt{
 	color: #555555;
-	font: 1.2em "times new roman", serif;
+	font: 1.2em "Times", serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	padding-bottom: 0.9em;
 }
 
-#SGM1 dl.dotted dd{
+.SGM1 dl.dotted dd{
 	border-left: 1px solid #2A72A7;
 	float: left;
-	padding-left: 1em;
-	margin-right: 1em;
+	padding-left: 1.0em;
+	margin-left: 1.0em;
 	font-size: 1.1em;
 }
 
-#SGM1 dl.dotted dd.first{
+.SGM1 dl.dotted dd.first{
 	border: none;
 	padding-left: 0;
+	margin-left: 0;
 }
 
 #SGM2 /*Updates Listing*/ {
@@ -1375,4 +1377,16 @@ div.dotted{
 /* MISC */
 div.clear {
 	clear: both;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+em, i {
+	font-style: italic;
+}
+
+u {
+	text-decoration: underline;
 }
