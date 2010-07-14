@@ -923,7 +923,7 @@ div.module a:hover {
 	margin-right: 20px;
 }
 
-#SGLM1 div.col1 h3 {
+#SGLM1 h3.topMargin {
 	margin-top: 30px;
 }
 
@@ -1285,9 +1285,8 @@ div.module .modulesTable a{
 	margin-top: 0;
 }
 
-#col2 div#SGLM2 p{
-	font: 1.1em arial, sans-serif;
-	line-height: 1.3em;
+#col2 div#SGLM2 p {
+
 }
 
 
@@ -1522,6 +1521,12 @@ div.dotted{
 
 
 /* MISC */
+.red {
+	color: #830606 !important;
+	font-size: 11px !important;
+	margin-top: 1.0em;
+}
+
 div.clear {
 	clear: both;
 }
