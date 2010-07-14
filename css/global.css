@@ -1554,4 +1554,5 @@ ul {
 
 ul.raquo {
 	list-style: inside url(../images/iconRaquoGeneric.gif);
+	line-height: 16px;
 }
