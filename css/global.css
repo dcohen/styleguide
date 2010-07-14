@@ -53,6 +53,7 @@ body
 
 #container #header #topHat #options #resourceLinks ul {
 	float: left;
+	list-style: none;
 	display: block;
 	height: 13px;
 	padding: 5px 0;
@@ -119,6 +120,7 @@ body
 
 #nav ul {
 	float: left;
+	list-style: none;
 }
 
 #nav ul li {
@@ -585,11 +587,12 @@ div.module h3 {
 
 div.module h4 {
 	color: #555;
-	font-size: 14px;
+	font-size: 10px;
 	font-weight: bold;
 	font-family: Arial, serif;
+	letter-spacing: 2px;
 	display: block;
-	line-height: 16px;
+	margin-bottom: 1.0em;
 	text-transform: uppercase;
 }
 
@@ -599,7 +602,8 @@ div.module h5 {
 	display: block;
 	line-height: 16px;
 	font-weight: bold;
-	color: #2871a7;
+	color: #555;
+	margin-bottom: 1.0em;
 }
 
 
@@ -710,6 +714,10 @@ div.module a:hover {
 	
 }
 
+#SGM2 ul {
+	list-style: none;
+}
+
 #SGM2 ul li {
 	margin-bottom: 1.0em;
 	padding-left: 30px;
@@ -752,6 +760,7 @@ div.module a:hover {
 
 #SGM4 ul {
 	margin: 0px 10px;
+	list-style: none;
 }
 
 #SGM4 ul li {
@@ -893,10 +902,24 @@ div.module a:hover {
 	width: 480px;
 }
 
+#SGLM1 div.col1 ul {
+	color: #555;
+	line-height: 16px;
+	margin-bottom: 1.0em;
+}
+
 #SGLM1 div.col1 div.left {
 	float: left;
 	width: 220px;
 	margin-right: 20px;
+}
+
+#SGLM1 div.col1 h3 {
+	margin-top: 30px;
+}
+
+#SGLM1 div.col1 div.resourcePrintDiv h3 {
+	margin-top: 0;
 }
 
 #SGLM1 div.col2 {
@@ -923,6 +946,10 @@ div.module a:hover {
 #SGSN1 /* Left Navigation - module SGSN1 */	{
 
 }
+	
+#SGSN1 ul {
+	list-style: none;
+}	
 						
 #SGSN1 ul li{
 	margin-bottom: 1em;
@@ -1273,15 +1300,6 @@ a.blue, .blue{
 	color: #2a72a7;
 }
 
-ul.disc{
-	list-style: disc outside none;
-	margin-left: 30px;
-}
-
-#container ul.disc li{
-	list-style: disc outside none;
-}
-
 .align-right, #container .module div.align-right{ text-align: right; }
 .align-left, #container .module div.align-left{ text-align: left; }
 .align-center, #container .module div.align-center{ text-align: center; }
@@ -1518,4 +1536,13 @@ hr {
 	height: 1px;
 	display: block;
 	margin: 20px 0;
+	clear: both;
+}
+
+ul {
+	list-style: disc inside;
+}
+
+ul.raquo {
+	list-style: inside url(../images/iconRaquoGeneric.gif);
 }
