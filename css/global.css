@@ -659,6 +659,10 @@ div.module a.more {
 	text-align: right;
 }
 
+div.module a.more.inline {
+	display: inline;
+}
+
 div.module a:hover {
 	text-decoration: underline !important;
 }
