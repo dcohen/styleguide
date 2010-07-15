@@ -955,13 +955,28 @@ div.module a:hover {
 	margin-bottom: 1em;
 }
 
+
 /* first level links */
 #SGSN1 ul li a{								
 	text-decoration: none;
 	color: #696969;
 	text-transform: uppercase;
-	font: bold 1.0em arial, sans-serif;
+	font: 1.0em arial, sans-serif;
+	font-weight: bold;
 	margin-left: 15px;
+}
+
+#SGSN1 ul li.headline a {
+	margin-left: 15px;
+	font-family: Times, serif;
+	font-weight: normal;
+	color: #00415f;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 18px;	
+	border-bottom: 2px solid #b8c7cb;
+	
 }
 
 /* turn link blue */
@@ -969,6 +984,7 @@ div.module a:hover {
 #SGSN1 ul li a:active, 
 #SGSN1 a.current{						
 	color: #00415f;
+		cursor: pointer;
 }
 
 #SGSN1 ul li ul{ 
@@ -980,7 +996,7 @@ div.module a:hover {
 }
 
 #SGSN1 ul li ul li.current{
-	padding-right: 1px;
+	padding-right: 3px;
 }
 
 /* second level links */
@@ -997,11 +1013,12 @@ div.module a:hover {
 	background-position: 22px center;
 }
 
-#SGSN1 ul li ul li.current a{
-	background: none;
+#SGSN1 ul li ul li.current {
+	margin-top: -px;
+	margin-bottom: 8px;
 }
 
-#SGSN1 ul li ul li a.current{
+#SGSN1 ul li ul li.current a{
 	background: #FFF url("../images/SGSN1ArrowOn.gif") no-repeat;
 	background-position: 22px center;
 	border-top: 1px solid #F0EDE6;
@@ -1012,6 +1029,50 @@ div.module a:hover {
 
 #SGSN1 ul li ul li.current li{
 	padding-left: 12px;	
+}
+
+#SGSN1 ul li ul li ul li a {
+	background-position: 37px center;
+	padding-left: 47px;
+	margin: 0;
+}
+
+#SGSN1 ul li ul li ul li a:hover{
+	background: transparent url("../images/SGSN1ArrowOn.gif") no-repeat;
+	background-position: 37px center;
+}
+
+
+#SGSN1 ul li ul li ul li.current a{
+	background: #FFF url("../images/SGSN1ArrowOn.gif") no-repeat;
+	background-position: 37px center;
+	padding: 3px 0 3px 47px;
+	border-top: 1px solid #F0EDE6;
+	border-bottom: 1px solid #F0EDE6;
+	display: block;
+
+}
+
+#SGSN1 ul li ul li ul li ul li a {
+	background: none !important;
+	border-top: none !important;
+	border-bottom: none !important;
+	padding-left: 57px;
+	margin: 0;
+}
+
+#SGSN1 ul li ul li ul li ul li a:hover {
+	background: none;
+}
+
+#SGSN1 ul li ul li ul li ul li.current a{
+	background: #FFF no-repeat;
+	background-position: 57px center;
+	padding: 3px 0 3px 47px;
+	border-top: 1px solid #F0EDE6;
+	border-bottom: 1px solid #F0EDE6;
+	display: block;
+
 }
 
 /* third level links and below */
