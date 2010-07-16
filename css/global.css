@@ -581,6 +581,11 @@ div.module h3 {
 	margin-bottom: 20px;
 }
 
+div.module h3.noUnderline {
+	margin-bottom: 0;
+	border-bottom: none 0;
+}
+
 #col2.middleRail div.module h3 {
 	color: #555;
 }
@@ -657,6 +662,10 @@ div.module a.more {
 	font-style: italic;
 	display: block;
 	text-align: right;
+}
+
+div.module a.more.inline {
+	display: inline;
 }
 
 div.module a:hover {
@@ -914,7 +923,7 @@ div.module a:hover {
 	margin-right: 20px;
 }
 
-#SGLM1 div.col1 h3 {
+#SGLM1 h3.topMargin {
 	margin-top: 30px;
 }
 
@@ -1337,9 +1346,8 @@ div.module .modulesTable a{
 	margin-top: 0;
 }
 
-#col2 div#SGLM2 p{
-	font: 1.1em arial, sans-serif;
-	line-height: 1.3em;
+#col2 div#SGLM2 p {
+
 }
 
 
@@ -1574,6 +1582,12 @@ div.dotted{
 
 
 /* MISC */
+.red {
+	color: #830606 !important;
+	font-size: 11px !important;
+	margin-top: 1.0em;
+}
+
 div.clear {
 	clear: both;
 }
@@ -1606,4 +1620,5 @@ ul {
 
 ul.raquo {
 	list-style: inside url(../images/iconRaquoGeneric.gif);
+	line-height: 16px;
 }
