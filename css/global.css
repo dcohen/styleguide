@@ -993,15 +993,22 @@ div.module a:hover {
 #SGSN1 ul li a:active, 
 #SGSN1 a.current{						
 	color: #00415f;
-		cursor: pointer;
+	cursor: pointer;
+}
+
+
+#SGSN1 ul li.current ul li a {
+	background: transparent url("../images/SGSN1Arrow.gif") no-repeat;
+	border-top: none !important;
+	border-bottom: none !important;
+}
+
+#SGSN1 ul li.current a {
+	background: #FFF url("../images/SGSN1ArrowOn.gif") no-repeat;
 }
 
 #SGSN1 ul li ul{ 
 	margin-top: 1em;
-}
-
-#SGSN1 ul li ul li{
-	margin-bottom: 12px;
 }
 
 #SGSN1 ul li ul li.current{
@@ -1017,28 +1024,27 @@ div.module a:hover {
 	padding-left: 32px;
 	margin: 0;
 }
-#SGSN1 ul li ul li a:hover{
-	background: transparent url("../images/SGSN1ArrowOn.gif") no-repeat;
-	background-position: 22px center;
-}
-
-#SGSN1 ul li ul li.current {
-	margin-top: -px;
-	margin-bottom: 8px;
-}
 
 #SGSN1 ul li ul li.current a{
-	background: #FFF url("../images/SGSN1ArrowOn.gif") no-repeat;
 	background-position: 22px center;
 	border-top: 1px solid #F0EDE6;
 	border-bottom: 1px solid #F0EDE6;
 	padding: 3px 0 3px 32px;
+	margin-top: -4px;
+	margin-bottom: -4px;
 	display: block;
 }
 
 #SGSN1 ul li ul li.current li{
-	padding-left: 12px;	
+	padding-left: 15px;
+	margin-bottom: 12px;
 }
+
+#SGSN1 ul li ul li.current li a {
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
 
 #SGSN1 ul li ul li ul li a {
 	background-position: 37px center;
@@ -1046,11 +1052,10 @@ div.module a:hover {
 	margin: 0;
 }
 
-#SGSN1 ul li ul li ul li a:hover{
-	background: transparent url("../images/SGSN1ArrowOn.gif") no-repeat;
-	background-position: 37px center;
+#SGSN1 ul li ul li ul li.current li {
+	margin-bottom: 1em;
+	padding-left: 12px;
 }
-
 
 #SGSN1 ul li ul li ul li.current a{
 	background: #FFF url("../images/SGSN1ArrowOn.gif") no-repeat;
@@ -1058,6 +1063,8 @@ div.module a:hover {
 	padding: 3px 0 3px 47px;
 	border-top: 1px solid #F0EDE6;
 	border-bottom: 1px solid #F0EDE6;
+	margin-top: -4px;
+	margin-bottom: -4px;
 	display: block;
 
 }
@@ -1067,7 +1074,6 @@ div.module a:hover {
 	border-top: none !important;
 	border-bottom: none !important;
 	padding-left: 57px;
-	margin: 0;
 }
 
 #SGSN1 ul li ul li ul li ul li a:hover {
@@ -1075,11 +1081,11 @@ div.module a:hover {
 }
 
 #SGSN1 ul li ul li ul li ul li.current a{
-	background: #FFF no-repeat;
+	background: #FFF no-repeat !important;
 	background-position: 57px center;
-	padding: 3px 0 3px 47px;
-	border-top: 1px solid #F0EDE6;
-	border-bottom: 1px solid #F0EDE6;
+	padding: 3px 0 3px 57px;
+	border-top: 1px solid #F0EDE6 !important;
+	border-bottom: 1px solid #F0EDE6 !important;
 	display: block;
 
 }
