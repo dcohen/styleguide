@@ -140,6 +140,11 @@ body
 	cursor: pointer;
 }
 
+#container #header #nav ul li:first-child a {
+	margin-left: 0;
+	padding-left: 0;
+}
+
 #container #header #nav ul li:hover a {
 	color: #00415f;
 }
@@ -362,7 +367,9 @@ body
 }
 
 #SGH1 #heroContent div.right div.carousel {
-	margin-top: 15px;
+	position:absolute;
+	right: 50px;
+	bottom: 75px;
 }
 
 #SGH1 #heroContent div.right div.carousel ul {
@@ -461,7 +468,6 @@ body
 #container #contentColumns #col1 {
 	float: left;
 	width: 212px;
-	background: url(../images/bgCol1Shadow.jpg) no-repeat;
 	background-position: right top;
 }
 
@@ -896,6 +902,7 @@ div.module a:hover {
 
 #SGM6 .alphabeticalNav ul li {
 	float:left;
+	padding-left: 0em;
 }
 
 #SGM6 .alphabeticalNav ul li a {
