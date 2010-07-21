@@ -367,6 +367,7 @@ body
 
 #SGH1 #heroContent div.right div.carousel ul {
 	float: right;
+	list-style:none outside none;
 }
 
 #SGH1 #heroContent div.right div.carousel ul li {
