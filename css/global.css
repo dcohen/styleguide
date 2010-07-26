@@ -378,6 +378,20 @@ body
 }
 
 
+#SGH1 #heroContent div.right a.more {
+	font-size: 12px;
+	font-family: Georgia, serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: italic;
+	display: block;
+	text-align: right;
+}
+
+#SGH1 #heroContent div.right a.more:hover {
+	text-decoration: underline;
+}
+
 #SGH1 #heroContent div.right div.carousel {
 	position: absolute;
 	top: 250px;
