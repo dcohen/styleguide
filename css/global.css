@@ -925,6 +925,12 @@ div.module a:hover {
 	width: 480px;
 }
 
+#SGLM1 div.col1 p img { 
+	margin-right: 0;
+	float: none;
+	margin-bottom: 0;
+}
+
 #SGLM1 div.col1 ul {
 	color: #555;
 	line-height: 16px;
@@ -935,6 +941,10 @@ div.module a:hover {
 	float: left;
 	width: 220px;
 	margin-right: 20px;
+}
+
+#SGLM1 .topMargin20 {
+	margin-top: 20px;
 }
 
 #SGLM1 h3.topMargin {
