@@ -38,7 +38,6 @@ $(document).ready(function()
 
 // END: FancyBox
 
-
 	$('div.carousel a').live('click',
 		function() {					
 		var currentSpotlight = $(this).attr('rel');
@@ -55,7 +54,7 @@ $(document).ready(function()
 	
 		$('p.heroCopy'+currentSpotlight+'').siblings('p').removeClass('current').fadeOut(600);
 		$(this).parents().find('p.heroCopy'+currentSpotlight+'').addClass('current').fadeIn(600);	
-		
+
 		// change the next/prev				
 		var prev = 1;
 		var next = 1;
