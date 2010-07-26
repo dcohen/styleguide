@@ -30,6 +30,12 @@ body
 	margin-right: auto;
 }
 
+
+#container.gallery {
+	width: 485px;
+	padding: 20px;
+}
+
 #container #header {
 	padding: 0 10px;
 }
@@ -1364,9 +1370,44 @@ div.module .modulesTable a{
 
 }
 
-
-
 /* End SGLM2 - Grids Section */
+
+
+#SGGI1 /* Gallery Image */{
+	height: 460px;
+	text-align: center;
+}
+
+#SGGI1 img {
+	vertical-align: middle;
+	display: none;
+}
+
+#SGGI1 img.current {
+	display: block;
+}
+
+#SGGN1 /* Gallery Nav */ul {
+	float: left;
+	list-style: none;
+}
+
+#SGGN1 ul li {
+	float: left;
+	padding-left: 0;
+}
+
+#SGGN1 ul li a {
+	margin-right: 1.0em;
+	padding-right: 1.0em;
+	border-right: 1px solid #555;
+}
+
+#SGGN1 ul li.last a {
+	margin-right: 0;
+	padding-right: 0;
+	border: none 0;
+}
 
 /* Begin General Styles for Content */
 .bold{
