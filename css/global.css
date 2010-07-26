@@ -333,7 +333,7 @@ body
 
 #SGH1 #heroContent div.right {
 	color: #fff;
-	width: 395px;
+	width: 376px;
 	left: 480px;
 	height: 179px;
 	float: left;
@@ -354,11 +354,11 @@ body
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	margin-bottom: 0.7em;
+	margin-bottom: 0.5em;
 	margin-top: 0px;
 	background-image: url(../images/bgHeroH2BottomBorder.gif);
 	background-position: left bottom;
-	padding-bottom: 7px;
+	padding-bottom: 2px;
 	background-repeat: no-repeat;
 }
 
@@ -395,7 +395,7 @@ body
 #SGH1 #heroContent div.right div.carousel {
 	position: absolute;
 	top: 250px;
-	right: 71px;
+	right: 91px;
 }
 
 #SGH1 #heroContent div.right div.carousel ul {
