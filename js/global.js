@@ -55,6 +55,11 @@ $(document).ready(function()
 		$('p.heroCopy'+currentSpotlight+'').siblings('p').removeClass('current').fadeOut(600);
 		$(this).parents().find('p.heroCopy'+currentSpotlight+'').addClass('current').fadeIn(600);	
 
+		if(currentSpotlight == '1')
+			$('div.right').addClass('transparent');
+		if(currentSpotlight != '1')
+			$('div.right').removeClass('transparent');
+
 		// change the next/prev				
 		var prev = 1;
 		var next = 1;
