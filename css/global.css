@@ -1052,13 +1052,13 @@ div.module a:hover {
 }
 
 
-#SGSN1 ul li.current ul li a {
+#SGSN1 ul li.active ul li a {
 	background: transparent url("../images/SGSN1Arrow.gif") no-repeat;
 	border-top: none !important;
 	border-bottom: none !important;
 }
 
-#SGSN1 ul li.current a {
+#SGSN1 ul li.active a {
 	background: #FFF url("../images/SGSN1ArrowOn.gif") no-repeat;
 }
 
@@ -1066,7 +1066,7 @@ div.module a:hover {
 	margin-top: 1em;
 }
 
-#SGSN1 ul li ul li.current{
+#SGSN1 ul li ul li.active{
 	padding-right: 3px;
 }
 
@@ -1080,7 +1080,7 @@ div.module a:hover {
 	margin: 0;
 }
 
-#SGSN1 ul li ul li.current a{
+#SGSN1 ul li ul li.active a{
 	background-position: 22px center;
 	border-top: 1px solid #F0EDE6;
 	border-bottom: 1px solid #F0EDE6;
@@ -1090,12 +1090,12 @@ div.module a:hover {
 	display: block;
 }
 
-#SGSN1 ul li ul li.current li{
+#SGSN1 ul li ul li.active li{
 	padding-left: 15px;
 	margin-bottom: 12px;
 }
 
-#SGSN1 ul li ul li.current li a {
+#SGSN1 ul li ul li.active li a {
 	padding-top: 1px;
 	padding-bottom: 1px;
 }
@@ -1107,12 +1107,12 @@ div.module a:hover {
 	margin: 0;
 }
 
-#SGSN1 ul li ul li ul li.current li {
+#SGSN1 ul li ul li ul li.active li {
 	margin-bottom: 1em;
 	padding-left: 12px;
 }
 
-#SGSN1 ul li ul li ul li.current a{
+#SGSN1 ul li ul li ul li.active a{
 	background: #FFF url("../images/SGSN1ArrowOn.gif") no-repeat;
 	background-position: 37px center;
 	padding: 3px 0 3px 47px;
@@ -1135,7 +1135,7 @@ div.module a:hover {
 	background: none;
 }
 
-#SGSN1 ul li ul li ul li ul li.current a{
+#SGSN1 ul li ul li ul li ul li.active a{
 	background: #FFF no-repeat !important;
 	background-position: 57px center;
 	padding: 3px 0 3px 57px;
@@ -1146,7 +1146,7 @@ div.module a:hover {
 }
 
 /* third level links and below */
-#SGSN1 li.current li.current li.current a {
+#SGSN1 li.active li.active li.active a {
 	background: none;
 	border: none;
 }
