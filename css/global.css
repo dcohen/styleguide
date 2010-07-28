@@ -681,6 +681,9 @@ div.module p {
 div.module ul li {
 	padding-left: 1.0em;
 	font-size: 12px;
+	line-height: 16px;
+	color: #555;
+	margin-bottom: 1.0em;
 }
 
 #col2 div.module p {
@@ -1725,4 +1728,5 @@ ul {
 ul.raquo {
 	list-style: inside url(../images/iconRaquoGeneric.gif);
 	line-height: 16px;
+	margin-bottom: 0;
 }
