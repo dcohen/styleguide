@@ -1045,30 +1045,28 @@ div.module a:hover {
 
 /* turn link blue */
 #SGSN1 ul li a:hover, 
-#SGSN1 ul li a:active, 
+#SGSN1 ul li a.active, 
 #SGSN1 a.current{						
 	color: #00415f;
 	cursor: pointer;
 }
 
-
-#SGSN1 ul li.current ul li a {
-	background: transparent url("../images/SGSN1Arrow.gif") no-repeat;
-	border-top: none !important;
-	border-bottom: none !important;
-}
-
-#SGSN1 ul li.current a {
-	background: #FFF url("../images/SGSN1ArrowOn.gif") no-repeat;
+#SGSN1 ul li a.active {
+	background: #FFF;
+	border-top: 1px solid #F0EDE6;
+	border-bottom: 1px solid #F0EDE6;
+	margin-top: -4px;
+	margin-left: 0px;
+	margin-bottom: -4px;
+	margin-right: 3px;
+	display: block;
+	padding: 3px 0 3px 15px;
 }
 
 #SGSN1 ul li ul{ 
 	margin-top: 1em;
 }
 
-#SGSN1 ul li ul li.current{
-	padding-right: 3px;
-}
 
 /* second level links */
 #SGSN1 ul li ul li a{
@@ -1080,26 +1078,17 @@ div.module a:hover {
 	margin: 0;
 }
 
-#SGSN1 ul li ul li.current a{
+#SGSN1 ul li ul li a.active {
+	background: #FFF url("../images/SGSN1Arrow.gif") no-repeat;
 	background-position: 22px center;
 	border-top: 1px solid #F0EDE6;
 	border-bottom: 1px solid #F0EDE6;
-	padding: 3px 0 3px 32px;
 	margin-top: -4px;
+	margin-left: 0px;
 	margin-bottom: -4px;
 	display: block;
+	padding: 3px 0px 3px 32px;
 }
-
-#SGSN1 ul li ul li.current li{
-	padding-left: 15px;
-	margin-bottom: 12px;
-}
-
-#SGSN1 ul li ul li.current li a {
-	padding-top: 1px;
-	padding-bottom: 1px;
-}
-
 
 #SGSN1 ul li ul li ul li a {
 	background-position: 37px center;
@@ -1107,42 +1096,39 @@ div.module a:hover {
 	margin: 0;
 }
 
-#SGSN1 ul li ul li ul li.current li {
-	margin-bottom: 1em;
-	padding-left: 12px;
-}
-
-#SGSN1 ul li ul li ul li.current a{
-	background: #FFF url("../images/SGSN1ArrowOn.gif") no-repeat;
+#SGSN1 ul li ul li ul li a.active {
+	background: #FFF url("../images/SGSN1Arrow.gif") no-repeat;
 	background-position: 37px center;
-	padding: 3px 0 3px 47px;
 	border-top: 1px solid #F0EDE6;
 	border-bottom: 1px solid #F0EDE6;
 	margin-top: -4px;
+	margin-left: 0px;
 	margin-bottom: -4px;
 	display: block;
-
+	padding: 3px 0 3px 47px;	
 }
 
 #SGSN1 ul li ul li ul li ul li a {
 	background: none !important;
 	border-top: none !important;
 	border-bottom: none !important;
-	padding-left: 57px;
+	padding-left: 72px;
 }
+
+#SGSN1 ul li ul li ul li ul li a.active {
+	background: none !important;
+	border-top: none !important;
+	border-bottom: none !important;
+	margin-bottom: 0 !important;
+	padding-left: 57px;
+	color: #696969;
+}
+
+
 
 #SGSN1 ul li ul li ul li ul li a:hover {
 	background: none;
-}
-
-#SGSN1 ul li ul li ul li ul li.current a{
-	background: #FFF no-repeat !important;
-	background-position: 57px center;
-	padding: 3px 0 3px 57px;
-	border-top: 1px solid #F0EDE6 !important;
-	border-bottom: 1px solid #F0EDE6 !important;
-	display: block;
-
+	color: #00415f;
 }
 
 /* third level links and below */
