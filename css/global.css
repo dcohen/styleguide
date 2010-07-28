@@ -124,6 +124,10 @@ body
 	background-position: 11px 0;
 }
 
+#nav {
+	z-index: 110;
+}
+
 #nav ul {
 	float: left;
 	list-style: none;
@@ -131,6 +135,7 @@ body
 
 #nav ul li {
 	float: left;
+
 }
 
 #container #header #nav ul li a {
