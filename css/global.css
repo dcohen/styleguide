@@ -254,7 +254,7 @@ body
 	left: 276px;
 	top: 24px;
 	width: 540px;
-	width: 23%;
+	width: 22.5%;
 	border-left: 1px dotted #B3C1C9; 
 	border-right: 0;
 	border-top: 0;
@@ -275,6 +275,7 @@ body
 	padding-top: 6px;
 	position: static;
 }
+
 #dropDownUL ul.dropDownUL-level-3 li{
 	float: none;
 	padding: 3px 0;
