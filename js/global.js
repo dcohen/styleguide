@@ -68,8 +68,8 @@ $(document).ready(function()
 		if(currentSpotlight == '1')
 			prev = -lastSpotlight+1;
 			
-		$(this).parents().find('a.prev').attr('rel', parseInt(currentSpotlight)+next);					
-		$(this).parents().find('a.next').attr('rel', parseInt(currentSpotlight)-prev);			
+		$(this).parents().find('a.prev').attr('rel', parseInt(currentSpotlight)-prev);					
+		$(this).parents().find('a.next').attr('rel', parseInt(currentSpotlight)+next);			
 	});
 	
 	
