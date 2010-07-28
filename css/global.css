@@ -8,6 +8,129 @@ body
 	background-color: #fff;
 }
 
+/* Defaults */
+
+
+div.module h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #555;
+	font-family: Arial, serif;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dad1c1;
+	display: block;
+	margin-bottom: 20px;
+	line-height: 20px;
+}
+
+#col2.middleRail div.module h2 {
+	color: #00415f;
+}
+
+div.module h3 {
+	color: #00415f;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: Arial, serif;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dad1c1;
+	display: block;
+	margin-bottom: 20px;
+}
+
+div.module h3.noUnderline {
+	margin-bottom: 0;
+	border-bottom: none 0;
+}
+
+#col2.middleRail div.module h3 {
+	color: #555;
+}
+
+div.module h4 {
+	color: #555;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Arial, serif;
+	letter-spacing: 2px;
+	display: block;
+	margin-bottom: 1.0em;
+	text-transform: uppercase;
+}
+
+div.module h5 {
+	font-size: 12px;
+	font-family: Arial, serif;
+	display: block;
+	line-height: 16px;
+	font-weight: bold;
+	color: #555;
+	margin-bottom: 1.0em;
+}
+
+
+
+
+#col1 div.module {
+	margin: 0 20px 25px 25px;
+}
+
+#col2 div.module {
+	margin: 0px 0px 25px 0px;
+}
+
+#col3 div.module {
+	margin: 0 24px 25px 20px;
+}
+
+div.module p {
+	font-size: 11px;
+	color: #555;
+	font-family: Arial, serif;
+	line-height: 14px;
+	margin-bottom: 1.0em;
+}
+
+div.module ul li {
+	padding-left: 1.0em;
+	font-size: 12px;
+	line-height: 16px;
+	color: #555;
+	margin-bottom: 1.0em;
+}
+
+#col2 div.module p {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+#col2 div.module p img {
+	float: left;
+	margin-right: 2.0em;
+	margin-bottom: 2.0em;
+}
+
+div.module a {
+	color: #2a72a7;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+div.module a.more {
+	font-size: 12px;
+	font-family: Georgia, serif;
+	font-style: italic;
+	display: block;
+	text-align: right;
+}
+
+div.module a.more.inline {
+	display: inline;
+}
+
+div.module a:hover {
+	text-decoration: underline !important;
+}
 
 /* Structure */
 
@@ -598,127 +721,6 @@ body
 
 /* MODULES */
 
-div.module h2 {
-	font-size: 20px;
-	font-weight: bold;
-	color: #555;
-	font-family: Arial, serif;
-	padding-bottom: 5px;
-	border-bottom: 1px solid #dad1c1;
-	display: block;
-	margin-bottom: 20px;
-	line-height: 20px;
-}
-
-#col2.middleRail div.module h2 {
-	color: #00415f;
-}
-
-div.module h3 {
-	color: #00415f;
-	font-size: 17px;
-	font-weight: bold;
-	font-family: Arial, serif;
-	padding-bottom: 5px;
-	border-bottom: 1px solid #dad1c1;
-	display: block;
-	margin-bottom: 20px;
-}
-
-div.module h3.noUnderline {
-	margin-bottom: 0;
-	border-bottom: none 0;
-}
-
-#col2.middleRail div.module h3 {
-	color: #555;
-}
-
-div.module h4 {
-	color: #555;
-	font-size: 10px;
-	font-weight: bold;
-	font-family: Arial, serif;
-	letter-spacing: 2px;
-	display: block;
-	margin-bottom: 1.0em;
-	text-transform: uppercase;
-}
-
-div.module h5 {
-	font-size: 12px;
-	font-family: Arial, serif;
-	display: block;
-	line-height: 16px;
-	font-weight: bold;
-	color: #555;
-	margin-bottom: 1.0em;
-}
-
-
-
-
-#col1 div.module {
-	margin: 0 20px 25px 25px;
-}
-
-#col2 div.module {
-	margin: 0px 0px 25px 0px;
-}
-
-#col3 div.module {
-	margin: 0 24px 25px 20px;
-}
-
-div.module p {
-	font-size: 11px;
-	color: #555;
-	font-family: Arial, serif;
-	line-height: 14px;
-	margin-bottom: 1.0em;
-}
-
-div.module ul li {
-	padding-left: 1.0em;
-	font-size: 12px;
-	line-height: 16px;
-	color: #555;
-	margin-bottom: 1.0em;
-}
-
-#col2 div.module p {
-	font-size: 12px;
-	line-height: 16px;
-}
-
-#col2 div.module p img {
-	float: left;
-	margin-right: 2.0em;
-	margin-bottom: 2.0em;
-}
-
-div.module a {
-	color: #2a72a7;
-	text-decoration: none;
-	cursor: pointer;
-}
-
-div.module a.more {
-	font-size: 12px;
-	font-family: Georgia, serif;
-	font-style: italic;
-	display: block;
-	text-align: right;
-}
-
-div.module a.more.inline {
-	display: inline;
-}
-
-div.module a:hover {
-	text-decoration: underline !important;
-}
-
 .SGM1 /*Generic with More*/ {
 
 }
@@ -872,7 +874,6 @@ div.module a:hover {
 	padding:0;
 	margin-top:1.0em;
 	margin-left:1.0em;
-	
 }
 
 #SGM6 div.letter ul li {
@@ -944,6 +945,8 @@ div.module a:hover {
 #SGM6 .alphabeticalNav ul li {
 	float:left;
 	padding-left: 0em;
+	margin-bottom: 0;
+	line-height: 30px;
 }
 
 #SGM6 .alphabeticalNav ul li a {
