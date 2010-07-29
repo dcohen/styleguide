@@ -1,11 +1,9 @@
-#hero {
-}
-
 #SGM2 ul li {
 	text-indent: -15px;
 }
 
-#nav #dropDownUL {
+#nav #dropDownUL{
+	left: -364px;
 }
 
 #dropDownUL ul.dropDownUL-level-3 li:first-child{
@@ -28,8 +26,4 @@
 	clear: none;
 	position: relative;
 	
-}
-
-#nav #dropDownUL{
-	left: -364px;
 }
