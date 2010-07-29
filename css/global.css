@@ -758,8 +758,8 @@ div.module a:hover {
 .SGM1 dl.dotted dd{
 	border-left: 1px solid #2A72A7;
 	float: left;
-	padding-left: 1.0em;
-	margin-left: 1.0em;
+	padding-left: 0.9em;
+	margin-left: 0.9em;
 	font-size: 1.1em;
 }
 
