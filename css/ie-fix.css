@@ -1,5 +1,4 @@
 #hero {
-	margin-top: -10px;
 }
 
 #SGM2 ul li {
@@ -7,7 +6,6 @@
 }
 
 #nav #dropDownUL {
-	margin-bottom: -5px;
 }
 
 #dropDownUL ul.dropDownUL-level-3 li:first-child{
@@ -24,4 +22,14 @@
 
 #SGSN1 ul li ul li ul li a.active {
 	background-position: 53px center;
+}
+
+#container #header #nav {
+	clear: none;
+	position: relative;
+	
+}
+
+#nav #dropDownUL{
+	left: -364px;
 }
