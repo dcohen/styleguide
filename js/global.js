@@ -80,13 +80,13 @@ $(document).ready(function()
 			$('#SGGI1 img:visible').hide();
 			$('#SGGI1 img.'+number+'').fadeIn();
 	});
-});
-
-$('#SGM6 div.letter ul li a').live('click',
+	
+	$('#SGM6 div.letter ul li a').live('click',
 	function() {
 		if($(this).parent().hasClass('selected')) {
 			$(this).parent().removeClass('selected');
 		} else {
 			$(this).parent().addClass('selected');
 		}
+	});
 });
