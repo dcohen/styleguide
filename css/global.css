@@ -597,8 +597,10 @@ body
 	background-position: top left;
 }
 
-#container #footer {
-	margin-top: 10px;	
+#footer {	
+	margin: auto;
+	width: 960px;
+	margin-top: 10px;
 }
 
 
@@ -949,6 +951,7 @@ div.module a:hover {
 #SGM6 .alphabeticalNav ul li {
 	float:left;
 	padding-left: 0em;
+	line-height: 30px;
 }
 
 #SGM6 .alphabeticalNav ul li a {
@@ -1241,53 +1244,61 @@ div.module .resourcePrintDiv #btnresources:hover, div.module .resourcePrintDiv #
 	padding: 4px 0 0 8px;
 }
 /* Module Gallery - Global Modules Table */
-.modulesTable{
-	width: 100%;
-	margin-top: 2.5em;
+table {
+	width: 650px;
+	font-size: 10px;
+	line-height: 12px;
 }
 
-.modulesTable tr th{
+table tbody,
+table tbody tr {
+	width: 100%;
+}
+
+table tr th{
 	background: #eae9e5;
 	color: #525252;
 	font: bold 1.5em arial, sans-serif;
 	vertical-align: middle;
 	padding: 5px 10px 4px;
+	background-color: #EAE9E5;
+	border-right: 10px solid #fff;
 }
 
-.modulesTable tr td{
+table tr td{
 	font: 1.1em arial,sans-serif;
 	padding: 10px;
 	color: #525252;
 	border-bottom: 1px solid #EAE9E5;
 }
 
-div.module .modulesTable a{
+div.module table a{
 	color: #1460ed;
 	text-decoration: none;
 }
 
-.modulesTable .row2 td{
+table .row2 td{
 	padding-top: 20px;
 }
 
-.modulesTable .col1 a{
+table .col1 a{
 	font: bold 1.1em arial, sans-serif;
 }
 
-.modulesTable .col2{
+table .col2{
 	width: 53%;
 }
 
-.modulesTable .col3{
+table .col3{
 	width: 24%;
 	color: #525252;
 }
 
-.modulesTable .col3 a{
+table .col3 a{
 	font-size: 1.0em;
 }
 
-.modulesTable .border{
+table .border{
 	border-right: 5px solid #FFFFFF;
 }
 
