@@ -55,6 +55,7 @@ body
 #container #header #topHat #options #resourceLinks {
 	float: left;
 	margin-right: 12px;
+	display: none;
 }
 
 #container #header #topHat #options #resourceLinks ul {
@@ -952,10 +953,12 @@ div.module a:hover {
 	float:left;
 	padding-left: 0em;
 	line-height: 30px;
+	padding:0 8px 0 8px;
+	color: #555;
+	
 }
 
 #SGM6 .alphabeticalNav ul li a {
-	padding:0 8px 0 8px;
 }
 
 #SGLM1 /*Layout Module 1 (Big Left Column)*/ {
@@ -1688,6 +1691,12 @@ div.dotted{
 	color: #830606 !important;
 	font-size: 11px !important;
 	margin-top: 1.0em;
+}
+
+div.caption {
+	margin-top: -10px;
+	margin-bottom: 1.0em;
+	font-size: 10px;
 }
 
 div.clear {
